@@ -18,22 +18,27 @@
 
 <div class="wrap">
 
-  <details open>
-    <summary>標註說明（請先讀一次）</summary>
-    <p>每一題會看到一段<b>來源文字</b>（英文評論）與一個<b>修復後標籤</b>
-       （<code>positive</code> 正面 / <code>negative</code> 負面 / <code>neutral</code> 中性）。
-       請回答一個問題：</p>
-    <p><b>這個修復後標籤，是否與來源文字所表達的情感極性一致？</b></p>
+  <div class="task">
+    <div class="task-q">任務：判斷下方的「待驗證標籤」是否<u>正確反映原句的情緒</u>。</div>
     <ul>
-      <li><b>一致（YES）</b>——標籤公允地反映了文字的情感極性。</li>
-      <li><b>失真（NO）</b>——標籤與文字的極性相矛盾或明顯失真。</li>
-      <li>只判斷<b>極性</b>（正面／負面／中性），不必判斷細緻情緒、強度或面向。</li>
-      <li><code>neutral</code> 中性：當文字確實是混合／中立／純事實時為一致；若文字明顯正面或負面卻標成中性，請選<b>失真</b>。</li>
-      <li>反諷／否定句：判斷作者的<b>真正意圖</b>極性，而非字面用詞。</li>
-      <li>這是<b>二元判斷（一致／失真）</b>，不是五點量表。</li>
-      <li>快捷鍵：<b>Y</b> = 一致、<b>N</b> = 失真、←／→ 切換題目。</li>
+      <li><b>正確／一致</b>——標籤公允反映了句子的情緒（正面／負面／中性）。</li>
+      <li><b>錯誤／不一致</b>——標籤與句子的情緒相矛盾或明顯不符。</li>
     </ul>
-    <p class="warn">全部答完後，按<b>下載我的標註</b>，把產生的 CSV 回傳給研究協調者。</p>
+    <div class="reminders">
+      <span class="no">只判斷情緒（正面／負面／中性）。</span>
+      <b>不要</b>評斷文法、翻譯品質或句子是否通順，也不必判斷強度或細緻情緒。
+      反諷／否定句請依作者的<b>真正意圖</b>判斷。 ·　快捷鍵：<b>Y</b>＝正確、<b>N</b>＝錯誤、←／→ 換題。
+    </div>
+  </div>
+
+  <details>
+    <summary>更多說明 / 邊界情況</summary>
+    <ul>
+      <li><code>neutral</code> 中性：句子確實混合／中立／純事實時 → <b>正確</b>；句子明顯正面或負面卻標成中性 → <b>錯誤</b>。</li>
+      <li>這是<b>二元判斷（正確／錯誤）</b>，不是五點量表。</li>
+      <li>來源文字為英文評論（即被檢驗的資料本身），請就其情緒判斷。</li>
+      <li>全部答完後，按<b>下載我的標註</b>，把 CSV 回傳給研究協調者。答案只存在本瀏覽器、不會上傳。</li>
+    </ul>
   </details>
 
   <div class="bar">
@@ -53,13 +58,13 @@
     <div class="qid" id="qid">—</div>
     <div class="src" id="src">載入中…</div>
     <div class="label-row">
-      <span class="k">修復後標籤：</span>
+      <span class="k">待驗證標籤：</span>
       <span class="chip neutral" id="chip">—</span>
     </div>
-    <div class="q">此修復後標籤是否與來源文字的情感極性<b>一致</b>？</div>
+    <div class="q">這個情緒標籤，是否<b>正確反映</b>原句的情緒？</div>
     <div class="btns">
-      <button class="btn yes" id="yes">一致 YES <span class="kbd">[Y]</span></button>
-      <button class="btn no" id="no">失真 NO <span class="kbd">[N]</span></button>
+      <button class="btn yes" id="yes">正確／一致 <span class="kbd">[Y]</span></button>
+      <button class="btn no" id="no">錯誤／不一致 <span class="kbd">[N]</span></button>
     </div>
     <textarea class="note" id="note" rows="2" placeholder="選填備註（為何難以判斷、反諷等）"></textarea>
     <div class="nav">

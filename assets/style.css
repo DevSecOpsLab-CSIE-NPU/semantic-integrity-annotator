@@ -61,6 +61,14 @@ header .sub { color: var(--muted); font-size: 12px; }
 .bar .ghost { background: transparent; color: var(--muted); border: 1px solid var(--line);
               border-radius: 8px; padding: 9px 14px; cursor: pointer; }
 
+.task { background: var(--panel); border: 1px solid var(--accent); border-radius: 10px;
+        padding: 14px 18px; margin-bottom: 16px; }
+.task .task-q { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.task ul { margin: 6px 0 10px; padding-left: 20px; }
+.task li { margin: 4px 0; }
+.task .reminders { background: var(--panel2); border-left: 3px solid var(--warn);
+                   border-radius: 6px; padding: 10px 12px; color: var(--ink); font-size: 14px; }
+.task .reminders .no { color: var(--warn); font-weight: 700; }
 details { background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
           padding: 12px 16px; margin-bottom: 16px; }
 details summary { cursor: pointer; font-weight: 600; }
