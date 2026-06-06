@@ -1,0 +1,5 @@
+# annotator exports (collected privately, not committed)
+annotations_*.csv
+*.db
+__pycache__/
+.DS_Store

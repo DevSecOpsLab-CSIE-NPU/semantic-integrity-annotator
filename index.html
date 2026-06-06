@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic Integrity Annotator</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>Semantic Integrity Annotator</h1>
+    <div class="sub">Polarity source-consistency study · JDIQ SIR construct validity</div>
+  </div>
+  <div class="sub">No login · nothing is uploaded · answers stay in this browser</div>
+</header>
+
+<div class="wrap">
+
+  <details>
+    <summary>How to annotate (read once)</summary>
+    <p>For each item you see a <b>source text</b> and a <b>repaired label</b>
+       (<code>positive</code> / <code>negative</code> / <code>neutral</code>). Answer one question:</p>
+    <p><b>Is the repaired label consistent with the polarity expressed by the source text?</b></p>
+    <ul>
+      <li><b>YES (consistent)</b> — the label fairly reflects the text's sentiment polarity.</li>
+      <li><b>NO (distorted)</b> — the label contradicts or misrepresents the text's polarity.</li>
+      <li>Judge <b>polarity only</b> (pos / neg / neutral), not fine-grained emotion, intensity, or aspect.</li>
+      <li><code>neutral</code> is consistent when the text is genuinely mixed/factual; mark <b>NO</b> if the text is clearly pos/neg but labelled neutral.</li>
+      <li>Sarcasm / negation: judge the writer's <b>intended</b> polarity, not the surface words.</li>
+      <li>Shortcuts: <b>Y</b> = consistent, <b>N</b> = distorted, ←/→ to move.</li>
+    </ul>
+    <p class="warn">When all items are answered, click <b>Download my annotations</b> and send the CSV back to the study coordinator.</p>
+  </details>
+
+  <div class="bar">
+    <label class="sub">Your annotator ID:</label>
+    <input id="who" placeholder="e.g. A, B, C or your name" autocomplete="off">
+    <button id="jump" class="ghost">Jump to next unanswered</button>
+    <button id="reset" class="ghost">Reset</button>
+  </div>
+
+  <div class="counts">
+    <span>Answered <b id="cDone">0</b> / <b id="cTotal">0</b></span>
+    <span>Remaining <b id="cLeft">0</b></span>
+  </div>
+  <div class="progress"><i id="prog"></i></div>
+
+  <div class="card">
+    <div class="qid" id="qid">—</div>
+    <div class="src" id="src">Loading…</div>
+    <div class="label-row">
+      <span class="k">Repaired label:</span>
+      <span class="chip neutral" id="chip">—</span>
+    </div>
+    <div class="q">Is the repaired label <b>consistent</b> with the source text's polarity?</div>
+    <div class="btns">
+      <button class="btn yes" id="yes">YES — consistent <span class="kbd">[Y]</span></button>
+      <button class="btn no" id="no">NO — distorted <span class="kbd">[N]</span></button>
+    </div>
+    <textarea class="note" id="note" rows="2" placeholder="Optional note (why undecidable, sarcasm, etc.)"></textarea>
+    <div class="nav">
+      <button id="prev">← Previous</button>
+      <button id="next">Next →</button>
+    </div>
+  </div>
+
+  <div class="bar" style="margin-top:18px; justify-content:flex-end;">
+    <button id="export" class="primary" disabled>Download my annotations</button>
+  </div>
+
+</div>
+
+<footer>
+  Answers are stored only in your browser (localStorage) and never transmitted.
+  &nbsp;·&nbsp; <a href="https://github.com/DevSecOpsLab-CSIE-NPU/semantic-integrity-annotator">repo</a>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
