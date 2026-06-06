@@ -48,12 +48,15 @@ Nothing is uploaded; answers live only in your browser's localStorage.
 python3 scripts/build_items.py /path/to/annotation_blinded.csv
 ```
 
-**Collect & score** once ≥3 annotators return their CSVs:
+**Raters:** 5 annotators, full overlap (every annotator labels all items); minimum
+acceptable is 3. The judgement is **binary YES/NO**, not a 5-point/Likert scale.
+
+**Collect & score** once the 5 annotators return their CSVs:
 ```bash
 python3 scripts/merge_results.py \
   --blinded /path/to/construct_validity/annotation_blinded.csv \
   --out     /path/to/construct_validity/annotation_blinded.csv \
-  annotations_A.csv annotations_B.csv annotations_C.csv
+  annotations_A.csv annotations_B.csv annotations_C.csv annotations_D.csv annotations_E.csv
 # then, in the harness directory:
 python3 compute_construct_validity.py
 ```
