@@ -9,6 +9,7 @@
 
   const $ = (s) => document.querySelector(s);
   const el = {};
+  const LABEL_ZH = { positive: "positive 正面", negative: "negative 負面", neutral: "neutral 中性" };
 
   function save() { localStorage.setItem(LS_KEY, JSON.stringify(state)); }
   function load() {
@@ -24,15 +25,15 @@
     el.cDone.textContent = done; el.cTotal.textContent = total;
     el.cLeft.textContent = total - done;
     el.export.disabled = done < total;
-    el.export.textContent = done < total ? `Download (${done}/${total} done)` : "✓ Download my annotations";
+    el.export.textContent = done < total ? `下載（已答 ${done}/${total}）` : "✓ 下載我的標註";
 
     if (state.idx < 0) state.idx = 0;
     if (state.idx >= total) state.idx = total - 1;
     const it = items[state.idx];
     const a = state.answers[it.sample_id] || {};
-    el.qid.textContent = `${it.sample_id}  ·  item ${state.idx + 1} / ${total}`;
+    el.qid.textContent = `${it.sample_id}  ·  第 ${state.idx + 1} / ${total} 題`;
     el.src.textContent = it.source_text;
-    el.chip.textContent = it.repaired_label;
+    el.chip.textContent = LABEL_ZH[it.repaired_label] || it.repaired_label;
     el.chip.className = "chip " + it.repaired_label;
     el.yes.classList.toggle("sel", a.v === "YES");
     el.no.classList.toggle("sel", a.v === "NO");
@@ -99,7 +100,7 @@
     el.jump.addEventListener("click", nextUnanswered);
     el.export.addEventListener("click", download);
     el.reset.addEventListener("click", () => {
-      if (confirm("Clear ALL your answers on this device? This cannot be undone.")) {
+      if (confirm("確定清除此裝置上的所有答案？此動作無法復原。")) {
         state.answers = {}; state.idx = 0; save(); render();
       }
     });
@@ -113,9 +114,9 @@
 
     fetch("data/items.json").then(r => r.json()).then(d => {
       items = d.items || [];
-      if (!items.length) { el.src.textContent = "No items loaded (data/items.json empty)."; return; }
+      if (!items.length) { el.src.textContent = "未載入任何題目（data/items.json 為空）。"; return; }
       render();
-    }).catch(() => { el.src.textContent = "Failed to load data/items.json."; });
+    }).catch(() => { el.src.textContent = "無法載入 data/items.json。"; });
   }
   document.addEventListener("DOMContentLoaded", init);
 })();

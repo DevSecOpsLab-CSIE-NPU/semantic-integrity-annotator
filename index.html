@@ -1,80 +1,82 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Semantic Integrity Annotator</title>
+<title>語意完整性標註工具</title>
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <header>
   <div>
-    <h1>Semantic Integrity Annotator</h1>
-    <div class="sub">Polarity source-consistency study · JDIQ SIR construct validity</div>
+    <h1>語意完整性標註工具</h1>
+    <div class="sub">極性來源一致性研究 · JDIQ SIR 建構效度</div>
   </div>
-  <div class="sub">No login · nothing is uploaded · answers stay in this browser</div>
+  <div class="sub">免登入 · 不上傳任何資料 · 答案只留在本瀏覽器</div>
 </header>
 
 <div class="wrap">
 
-  <details>
-    <summary>How to annotate (read once)</summary>
-    <p>For each item you see a <b>source text</b> and a <b>repaired label</b>
-       (<code>positive</code> / <code>negative</code> / <code>neutral</code>). Answer one question:</p>
-    <p><b>Is the repaired label consistent with the polarity expressed by the source text?</b></p>
+  <details open>
+    <summary>標註說明（請先讀一次）</summary>
+    <p>每一題會看到一段<b>來源文字</b>（英文評論）與一個<b>修復後標籤</b>
+       （<code>positive</code> 正面 / <code>negative</code> 負面 / <code>neutral</code> 中性）。
+       請回答一個問題：</p>
+    <p><b>這個修復後標籤，是否與來源文字所表達的情感極性一致？</b></p>
     <ul>
-      <li><b>YES (consistent)</b> — the label fairly reflects the text's sentiment polarity.</li>
-      <li><b>NO (distorted)</b> — the label contradicts or misrepresents the text's polarity.</li>
-      <li>Judge <b>polarity only</b> (pos / neg / neutral), not fine-grained emotion, intensity, or aspect.</li>
-      <li><code>neutral</code> is consistent when the text is genuinely mixed/factual; mark <b>NO</b> if the text is clearly pos/neg but labelled neutral.</li>
-      <li>Sarcasm / negation: judge the writer's <b>intended</b> polarity, not the surface words.</li>
-      <li>Shortcuts: <b>Y</b> = consistent, <b>N</b> = distorted, ←/→ to move.</li>
+      <li><b>一致（YES）</b>——標籤公允地反映了文字的情感極性。</li>
+      <li><b>失真（NO）</b>——標籤與文字的極性相矛盾或明顯失真。</li>
+      <li>只判斷<b>極性</b>（正面／負面／中性），不必判斷細緻情緒、強度或面向。</li>
+      <li><code>neutral</code> 中性：當文字確實是混合／中立／純事實時為一致；若文字明顯正面或負面卻標成中性，請選<b>失真</b>。</li>
+      <li>反諷／否定句：判斷作者的<b>真正意圖</b>極性，而非字面用詞。</li>
+      <li>這是<b>二元判斷（一致／失真）</b>，不是五點量表。</li>
+      <li>快捷鍵：<b>Y</b> = 一致、<b>N</b> = 失真、←／→ 切換題目。</li>
     </ul>
-    <p class="warn">When all items are answered, click <b>Download my annotations</b> and send the CSV back to the study coordinator.</p>
+    <p class="warn">全部答完後，按<b>下載我的標註</b>，把產生的 CSV 回傳給研究協調者。</p>
   </details>
 
   <div class="bar">
-    <label class="sub">Your annotator ID:</label>
-    <input id="who" placeholder="e.g. A, B, C or your name" autocomplete="off">
-    <button id="jump" class="ghost">Jump to next unanswered</button>
-    <button id="reset" class="ghost">Reset</button>
+    <label class="sub">你的標註者代號：</label>
+    <input id="who" placeholder="例如 A、B、C 或你的名字" autocomplete="off">
+    <button id="jump" class="ghost">跳到下一個未答</button>
+    <button id="reset" class="ghost">重置</button>
   </div>
 
   <div class="counts">
-    <span>Answered <b id="cDone">0</b> / <b id="cTotal">0</b></span>
-    <span>Remaining <b id="cLeft">0</b></span>
+    <span>已答 <b id="cDone">0</b> / <b id="cTotal">0</b></span>
+    <span>剩餘 <b id="cLeft">0</b></span>
   </div>
   <div class="progress"><i id="prog"></i></div>
 
   <div class="card">
     <div class="qid" id="qid">—</div>
-    <div class="src" id="src">Loading…</div>
+    <div class="src" id="src">載入中…</div>
     <div class="label-row">
-      <span class="k">Repaired label:</span>
+      <span class="k">修復後標籤：</span>
       <span class="chip neutral" id="chip">—</span>
     </div>
-    <div class="q">Is the repaired label <b>consistent</b> with the source text's polarity?</div>
+    <div class="q">此修復後標籤是否與來源文字的情感極性<b>一致</b>？</div>
     <div class="btns">
-      <button class="btn yes" id="yes">YES — consistent <span class="kbd">[Y]</span></button>
-      <button class="btn no" id="no">NO — distorted <span class="kbd">[N]</span></button>
+      <button class="btn yes" id="yes">一致 YES <span class="kbd">[Y]</span></button>
+      <button class="btn no" id="no">失真 NO <span class="kbd">[N]</span></button>
     </div>
-    <textarea class="note" id="note" rows="2" placeholder="Optional note (why undecidable, sarcasm, etc.)"></textarea>
+    <textarea class="note" id="note" rows="2" placeholder="選填備註（為何難以判斷、反諷等）"></textarea>
     <div class="nav">
-      <button id="prev">← Previous</button>
-      <button id="next">Next →</button>
+      <button id="prev">← 上一題</button>
+      <button id="next">下一題 →</button>
     </div>
   </div>
 
   <div class="bar" style="margin-top:18px; justify-content:flex-end;">
-    <button id="export" class="primary" disabled>Download my annotations</button>
+    <button id="export" class="primary" disabled>下載我的標註</button>
   </div>
 
 </div>
 
 <footer>
-  Answers are stored only in your browser (localStorage) and never transmitted.
-  &nbsp;·&nbsp; <a href="https://github.com/DevSecOpsLab-CSIE-NPU/semantic-integrity-annotator">repo</a>
+  答案僅儲存在你的瀏覽器（localStorage），不會傳送到任何伺服器。
+  &nbsp;·&nbsp; <a href="https://github.com/DevSecOpsLab-CSIE-NPU/semantic-integrity-annotator">原始碼</a>
 </footer>
 
 <script src="assets/app.js"></script>
