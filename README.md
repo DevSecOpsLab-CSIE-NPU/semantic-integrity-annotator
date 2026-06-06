@@ -51,7 +51,25 @@ python3 scripts/build_items.py /path/to/annotation_blinded.csv
 **Raters:** 5 annotators, full overlap (every annotator labels all items); minimum
 acceptable is 3. The judgement is **binary YES/NO**, not a 5-point/Likert scale.
 
-**Collect & score** once the 5 annotators return their CSVs:
+### Data collection — two paths
+
+**Path 1 (recommended): live submit to a Google Sheet.** Each answer is POSTed to a
+Google Apps Script endpoint and upserted into a Sheet (per-item, so partial progress
+is captured and nothing is lost if an annotator forgets to download). One-time setup:
+1. Follow `google_apps_script/Code.gs` (create Sheet → paste script → deploy as Web
+   app, access *Anyone* → copy the `/exec` URL).
+2. Put the URL in `assets/config.js`: `window.SIA_ENDPOINT = "https://…/exec";` and push.
+   The app shows a live "雲端已同步 N / M" counter and a **重新同步** button.
+3. When done, download the Sheet's `responses` tab as CSV and convert:
+```bash
+python3 scripts/sheet_to_blinded.py \
+  --sheet   responses.csv \
+  --blinded /path/to/construct_validity/annotation_blinded.csv \
+  --out     /path/to/construct_validity/annotation_blinded.csv
+```
+
+**Path 2 (zero-infra): manual CSV return.** Leave `SIA_ENDPOINT` empty — the app runs
+download-only. Annotators click **下載我的標註** and return `annotations_<id>.csv`; merge:
 ```bash
 python3 scripts/merge_results.py \
   --blinded /path/to/construct_validity/annotation_blinded.csv \

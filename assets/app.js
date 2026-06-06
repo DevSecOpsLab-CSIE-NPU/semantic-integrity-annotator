@@ -5,7 +5,8 @@
 (() => {
   "use strict";
   const LS_KEY = "sia_state_v1";
-  let items = [], state = { annotator: "", answers: {}, idx: 0 };
+  const ENDPOINT = (typeof window !== "undefined" && window.SIA_ENDPOINT) || "";
+  let items = [], state = { annotator: "", answers: {}, idx: 0, synced: {} };
 
   const $ = (s) => document.querySelector(s);
   const el = {};
@@ -15,6 +16,44 @@
   function load() {
     try { const s = JSON.parse(localStorage.getItem(LS_KEY)); if (s && s.answers) state = s; }
     catch (e) {}
+    if (!state.synced) state.synced = {};
+  }
+
+  /* ---- per-answer submission to the Google Sheet endpoint (optional) ---- */
+  function postAnswer(sampleId) {
+    if (!ENDPOINT) return;                          // download-only mode
+    const who = (state.annotator || "").trim();
+    if (!who) return;                               // need an ID; resync once set
+    const a = state.answers[sampleId] || {};
+    if (!a.v) return;
+    const payload = JSON.stringify({
+      annotator_id: who, sample_id: sampleId, consistent: a.v, note: a.note || "",
+    });
+    // no-cors + text/plain => simple request, no CORS preflight (Apps Script reads the body).
+    fetch(ENDPOINT, { method: "POST", mode: "no-cors",
+                      headers: { "Content-Type": "text/plain;charset=utf-8" }, body: payload })
+      .then(() => { state.synced[sampleId] = a.v + "|" + (a.note || ""); save(); updateSync(); })
+      .catch(() => { /* leave unsynced; resync() will retry */ });
+  }
+  function resync() {
+    if (!ENDPOINT || !(state.annotator || "").trim()) { updateSync(); return; }
+    Object.keys(state.answers).forEach(sid => {
+      const a = state.answers[sid]; if (!a || !a.v) return;
+      if (state.synced[sid] !== a.v + "|" + (a.note || "")) postAnswer(sid);
+    });
+    updateSync();
+  }
+  function syncedCount() {
+    return Object.keys(state.answers).filter(sid => {
+      const a = state.answers[sid];
+      return a && a.v && state.synced[sid] === a.v + "|" + (a.note || "");
+    }).length;
+  }
+  function updateSync() {
+    if (!el.sync) return;
+    if (!ENDPOINT) { el.sync.textContent = "離線模式（僅下載，未設定雲端端點）"; return; }
+    if (!(state.annotator || "").trim()) { el.sync.textContent = "請先輸入標註者代號以啟用雲端同步"; return; }
+    el.sync.textContent = `雲端已同步 ${syncedCount()} / ${answeredCount()}`;
   }
 
   function answeredCount() { return Object.values(state.answers).filter(a => a && a.v).length; }
@@ -41,6 +80,7 @@
     el.prev.disabled = state.idx === 0;
     el.next.disabled = state.idx === total - 1;
     save();
+    updateSync();
   }
 
   function answer(v) {
@@ -48,6 +88,7 @@
     const cur = state.answers[it.sample_id] || {};
     state.answers[it.sample_id] = { v, note: cur.note || "" };
     render();
+    postAnswer(it.sample_id);             // send this answer immediately
     // auto-advance to next UNANSWERED item for speed
     setTimeout(nextUnanswered, 120);
   }
@@ -85,15 +126,24 @@
     el.yes = $("#yes"); el.no = $("#no"); el.note = $("#note");
     el.prev = $("#prev"); el.next = $("#next"); el.export = $("#export");
     el.who = $("#who"); el.jump = $("#jump"); el.reset = $("#reset");
+    el.sync = $("#sync"); el.resync = $("#resync");
 
     load();
     el.who.value = state.annotator || "";
-    el.who.addEventListener("input", () => { state.annotator = el.who.value.trim(); save(); });
+    let whoTimer = null;
+    el.who.addEventListener("input", () => {
+      state.annotator = el.who.value.trim(); save(); updateSync();
+      clearTimeout(whoTimer); whoTimer = setTimeout(resync, 600);   // send earlier answers
+    });
+    if (el.resync) el.resync.addEventListener("click", resync);
     el.yes.addEventListener("click", () => answer("YES"));
     el.no.addEventListener("click", () => answer("NO"));
+    let noteTimer = null;
     el.note.addEventListener("input", () => {
       const it = items[state.idx]; const cur = state.answers[it.sample_id] || {};
       state.answers[it.sample_id] = { v: cur.v || "", note: el.note.value }; save();
+      clearTimeout(noteTimer);
+      noteTimer = setTimeout(() => { if ((state.answers[it.sample_id] || {}).v) postAnswer(it.sample_id); }, 800);
     });
     el.prev.addEventListener("click", () => go(-1));
     el.next.addEventListener("click", () => go(1));
@@ -115,6 +165,7 @@
       items = d.items || [];
       if (!items.length) { el.src.textContent = "未載入任何題目（data/items.json 為空）。"; return; }
       render();
+      resync();  // push any answers made before the endpoint/ID was available
     }).catch(() => { el.src.textContent = "無法載入 data/items.json。"; });
   }
   document.addEventListener("DOMContentLoaded", init);
