@@ -106,10 +106,9 @@
     });
     document.addEventListener("keydown", (e) => {
       if (e.target.tagName === "TEXTAREA" || e.target.tagName === "INPUT") return;
-      if (e.key === "y" || e.key === "Y") answer("YES");
-      else if (e.key === "n" || e.key === "N") answer("NO");
-      else if (e.key === "ArrowLeft") go(-1);
-      else if (e.key === "ArrowRight") go(1);
+      // Left = 正確/一致 (YES, the left button); Right = 錯誤/不一致 (NO, the right button)
+      if (e.key === "y" || e.key === "Y" || e.key === "ArrowLeft") { answer("YES"); e.preventDefault(); }
+      else if (e.key === "n" || e.key === "N" || e.key === "ArrowRight") { answer("NO"); e.preventDefault(); }
     });
 
     fetch("data/items.json").then(r => r.json()).then(d => {
