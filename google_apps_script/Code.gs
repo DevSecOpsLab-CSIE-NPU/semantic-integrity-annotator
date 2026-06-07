@@ -59,7 +59,29 @@ function doPost(e) {
   }
 }
 
-function doGet() { return _json({ ok: true, service: 'semantic-integrity-annotator' }); }
+/* Progress query (open in a browser):
+ *   …/exec                 -> per-annotator counts + total rows
+ *   …/exec?annotator=AUG   -> just AUG's answered count
+ * Counts rows whose `consistent` cell is non-empty. */
+function doGet(e) {
+  try {
+    const sh = sheet_();
+    const data = sh.getDataRange().getValues();        // [header, ...rows]
+    const counts = {};
+    for (let i = 1; i < data.length; i++) {
+      const who = String(data[i][1] || '');
+      const consistent = String(data[i][3] || '').trim();
+      if (!who || !consistent) continue;
+      counts[who] = (counts[who] || 0) + 1;
+    }
+    const who = e && e.parameter && e.parameter.annotator;
+    if (who) return _json({ ok: true, annotator: who, count: counts[who] || 0 });
+    return _json({ ok: true, service: 'semantic-integrity-annotator',
+                   by_annotator: counts, total_rows: data.length - 1 });
+  } catch (err) {
+    return _json({ ok: false, error: String(err) });
+  }
+}
 
 function _json(o) {
   return ContentService.createTextOutput(JSON.stringify(o))
