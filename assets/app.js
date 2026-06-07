@@ -35,13 +35,23 @@
       .then(() => { state.synced[sampleId] = a.v + "|" + (a.note || ""); save(); updateSync(); })
       .catch(() => { /* leave unsynced; resync() will retry */ });
   }
-  function resync() {
-    if (!ENDPOINT || !(state.annotator || "").trim()) { updateSync(); return; }
-    Object.keys(state.answers).forEach(sid => {
-      const a = state.answers[sid]; if (!a || !a.v) return;
-      if (state.synced[sid] !== a.v + "|" + (a.note || "")) postAnswer(sid);
+  function resync(force) {
+    if (!ENDPOINT) { updateSync(); return; }
+    if (!(state.annotator || "").trim()) {
+      if (force) alert("請先在上方輸入你的標註者代號，再按重新同步。");
+      updateSync(); return;
+    }
+    // force=true: re-send EVERY answered item regardless of the local "synced" flag.
+    // Needed because no-cors POSTs cannot detect a failed (e.g. 403) delivery, so an
+    // item may be marked synced locally yet never reached the Sheet.
+    if (force) state.synced = {};
+    const todo = Object.keys(state.answers).filter(sid => {
+      const a = state.answers[sid];
+      return a && a.v && state.synced[sid] !== a.v + "|" + (a.note || "");
     });
+    todo.forEach(sid => postAnswer(sid));
     updateSync();
+    if (force) alert(`已重新送出 ${todo.length} 筆到雲端。請稍候幾秒後到試算表或 ?action=view 確認。`);
   }
   function syncedCount() {
     return Object.keys(state.answers).filter(sid => {
@@ -135,7 +145,7 @@
       state.annotator = el.who.value.trim(); save(); updateSync();
       clearTimeout(whoTimer); whoTimer = setTimeout(resync, 600);   // send earlier answers
     });
-    if (el.resync) el.resync.addEventListener("click", resync);
+    if (el.resync) el.resync.addEventListener("click", () => resync(true));  // force re-send all
     el.yes.addEventListener("click", () => answer("YES"));
     el.no.addEventListener("click", () => answer("NO"));
     let noteTimer = null;
