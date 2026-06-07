@@ -24,7 +24,7 @@ function sheet_() {
   let sh = ss.getSheetByName(SHEET_NAME);
   if (!sh) {
     sh = ss.insertSheet(SHEET_NAME);
-    sh.appendRow(['updated_at', 'annotator_id', 'sample_id', 'consistent', 'note']);
+    sh.appendRow(['updated_at', 'annotator_id', 'sample_id', 'consistent', 'corrected', 'note']);
   }
   return sh;
 }
@@ -47,8 +47,9 @@ function doPost(e) {
       for (let i = 1; i < data.length; i++) {
         if (_key(data[i][1], data[i][2]) === key) { row = i + 1; break; }
       }
-      const vals = [new Date(), d.annotator_id, d.sample_id, d.consistent || '', d.note || ''];
-      if (row > 0) sh.getRange(row, 1, 1, 5).setValues([vals]);
+      const vals = [new Date(), d.annotator_id, d.sample_id,
+                    d.consistent || '', d.corrected || '', d.note || ''];
+      if (row > 0) sh.getRange(row, 1, 1, vals.length).setValues([vals]);
       else sh.appendRow(vals);
     } finally {
       lock.releaseLock();

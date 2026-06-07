@@ -23,8 +23,16 @@ def load_annotator(path):
     if not rows or "sample_id" not in rows[0] or "consistent_YES_NO" not in rows[0]:
         sys.exit(f"{path}: not a valid annotator export (need sample_id, consistent_YES_NO).")
     who = rows[0].get("annotator_id", os.path.basename(path))
-    return who, {r["sample_id"]: (r.get("consistent_YES_NO", "").strip(),
-                                  r.get("notes", "").strip()) for r in rows}
+    out = {}
+    for r in rows:
+        # fold corrected_label (human-proposed correct label when NO) into the note,
+        # keeping the YES/NO value clean for the scoring harness.
+        parts = []
+        corr = r.get("corrected_label", "").strip()
+        if corr: parts.append(f"→{corr}")
+        if r.get("notes", "").strip(): parts.append(r["notes"].strip())
+        out[r["sample_id"]] = (r.get("consistent_YES_NO", "").strip(), " ".join(parts))
+    return who, out
 
 def main():
     ap = argparse.ArgumentParser()

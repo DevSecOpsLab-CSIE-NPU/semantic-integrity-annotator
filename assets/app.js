@@ -11,6 +11,14 @@
   const $ = (s) => document.querySelector(s);
   const el = {};
   const LABEL_ZH = { positive: "positive 正面", negative: "negative 負面", neutral: "neutral 中性" };
+  const ZH = { positive: "正面", negative: "負面", neutral: "中性" };
+  // When a label is judged WRONG, the correct one must be one of the other two.
+  const CANDIDATES = {
+    positive: ["neutral", "negative"],
+    neutral:  ["positive", "negative"],
+    negative: ["positive", "neutral"],
+  };
+  const isComplete = (a) => !!(a && (a.v === "YES" || (a.v === "NO" && a.corrected)));
 
   function save() { localStorage.setItem(LS_KEY, JSON.stringify(state)); }
   function load() {
@@ -18,6 +26,8 @@
     catch (e) {}
     if (!state.synced) state.synced = {};
   }
+
+  const skey = (a) => (a.v || "") + "|" + (a.corrected || "") + "|" + (a.note || "");
 
   /* ---- per-answer submission to the Google Sheet endpoint (optional) ---- */
   function postAnswer(sampleId) {
@@ -27,12 +37,13 @@
     const a = state.answers[sampleId] || {};
     if (!a.v) return;
     const payload = JSON.stringify({
-      annotator_id: who, sample_id: sampleId, consistent: a.v, note: a.note || "",
+      annotator_id: who, sample_id: sampleId, consistent: a.v,
+      corrected: a.corrected || "", note: a.note || "",
     });
     // no-cors + text/plain => simple request, no CORS preflight (Apps Script reads the body).
     fetch(ENDPOINT, { method: "POST", mode: "no-cors",
                       headers: { "Content-Type": "text/plain;charset=utf-8" }, body: payload })
-      .then(() => { state.synced[sampleId] = a.v + "|" + (a.note || ""); save(); updateSync(); })
+      .then(() => { state.synced[sampleId] = skey(a); save(); updateSync(); })
       .catch(() => { /* leave unsynced; resync() will retry */ });
   }
   function resync(force) {
@@ -47,7 +58,7 @@
     if (force) state.synced = {};
     const todo = Object.keys(state.answers).filter(sid => {
       const a = state.answers[sid];
-      return a && a.v && state.synced[sid] !== a.v + "|" + (a.note || "");
+      return a && a.v && state.synced[sid] !== skey(a);
     });
     todo.forEach(sid => postAnswer(sid));
     updateSync();
@@ -56,7 +67,7 @@
   function syncedCount() {
     return Object.keys(state.answers).filter(sid => {
       const a = state.answers[sid];
-      return a && a.v && state.synced[sid] === a.v + "|" + (a.note || "");
+      return a && a.v && state.synced[sid] === skey(a);
     }).length;
   }
   function updateSync() {
@@ -66,7 +77,7 @@
     el.sync.textContent = `雲端已同步 ${syncedCount()} / ${answeredCount()}`;
   }
 
-  function answeredCount() { return Object.values(state.answers).filter(a => a && a.v).length; }
+  function answeredCount() { return Object.values(state.answers).filter(isComplete).length; }
 
   function render() {
     const total = items.length, done = answeredCount();
@@ -74,7 +85,7 @@
     el.cDone.textContent = done; el.cTotal.textContent = total;
     el.cLeft.textContent = total - done;
     el.export.disabled = done < total;
-    el.export.textContent = done < total ? `下載（已答 ${done}/${total}）` : "✓ 下載我的標註";
+    el.export.textContent = done < total ? `下載（已完成 ${done}/${total}）` : "✓ 下載我的標註";
 
     if (state.idx < 0) state.idx = 0;
     if (state.idx >= total) state.idx = total - 1;
@@ -89,6 +100,17 @@
     el.note.value = a.note || "";
     el.prev.disabled = state.idx === 0;
     el.next.disabled = state.idx === total - 1;
+
+    // Correction sub-question: shown only when this item is judged WRONG.
+    const cands = CANDIDATES[it.repaired_label] || [];
+    el.corr1.firstChild.textContent = (ZH[cands[0]] || cands[0] || "—") + " ";
+    el.corr2.firstChild.textContent = (ZH[cands[1]] || cands[1] || "—") + " ";
+    el.corr1.dataset.label = cands[0] || "";
+    el.corr2.dataset.label = cands[1] || "";
+    el.corrBlock.classList.toggle("hidden", a.v !== "NO");
+    el.corr1.classList.toggle("sel", a.corrected === cands[0]);
+    el.corr2.classList.toggle("sel", a.corrected === cands[1]);
+
     save();
     updateSync();
   }
@@ -96,16 +118,29 @@
   function answer(v) {
     const it = items[state.idx];
     const cur = state.answers[it.sample_id] || {};
-    state.answers[it.sample_id] = { v, note: cur.note || "" };
-    render();
-    postAnswer(it.sample_id);             // send this answer immediately
-    // auto-advance to next UNANSWERED item for speed
-    setTimeout(nextUnanswered, 120);
+    if (v === "YES") {
+      state.answers[it.sample_id] = { v: "YES", note: cur.note || "", corrected: "" };
+      render(); postAnswer(it.sample_id);
+      setTimeout(nextUnanswered, 120);             // YES is complete → advance
+    } else {
+      // NO: record, reveal the correction sub-question, DO NOT advance yet.
+      state.answers[it.sample_id] = { v: "NO", note: cur.note || "", corrected: cur.corrected || "" };
+      render(); postAnswer(it.sample_id);
+    }
+  }
+  function pickCorrection(label) {
+    if (!label) return;
+    const it = items[state.idx];
+    const cur = state.answers[it.sample_id] || {};
+    if (cur.v !== "NO") return;
+    state.answers[it.sample_id] = { v: "NO", note: cur.note || "", corrected: label };
+    render(); postAnswer(it.sample_id);
+    setTimeout(nextUnanswered, 120);               // correction chosen → advance
   }
   function nextUnanswered() {
     for (let k = 1; k <= items.length; k++) {
       const j = (state.idx + k) % items.length;
-      if (!(state.answers[items[j].sample_id] || {}).v) { state.idx = j; render(); return; }
+      if (!isComplete(state.answers[items[j].sample_id])) { state.idx = j; render(); return; }
     }
     render(); // all answered
   }
@@ -114,10 +149,11 @@
   function toCSV() {
     const who = state.annotator || "anon";
     const esc = (s) => `"${String(s == null ? "" : s).replace(/"/g, '""')}"`;
-    const lines = ["sample_id,annotator_id,consistent_YES_NO,notes"];
+    const lines = ["sample_id,annotator_id,consistent_YES_NO,corrected_label,notes"];
     items.forEach(it => {
       const a = state.answers[it.sample_id] || {};
-      lines.push([esc(it.sample_id), esc(who), esc(a.v || ""), esc(a.note || "")].join(","));
+      lines.push([esc(it.sample_id), esc(who), esc(a.v || ""),
+                  esc(a.corrected || ""), esc(a.note || "")].join(","));
     });
     return lines.join("\n");
   }
@@ -137,6 +173,7 @@
     el.prev = $("#prev"); el.next = $("#next"); el.export = $("#export");
     el.who = $("#who"); el.jump = $("#jump"); el.reset = $("#reset");
     el.sync = $("#sync"); el.resync = $("#resync");
+    el.corrBlock = $("#corrBlock"); el.corr1 = $("#corr1"); el.corr2 = $("#corr2");
 
     load();
     el.who.value = state.annotator || "";
@@ -148,10 +185,13 @@
     if (el.resync) el.resync.addEventListener("click", () => resync(true));  // force re-send all
     el.yes.addEventListener("click", () => answer("YES"));
     el.no.addEventListener("click", () => answer("NO"));
+    el.corr1.addEventListener("click", () => pickCorrection(el.corr1.dataset.label));
+    el.corr2.addEventListener("click", () => pickCorrection(el.corr2.dataset.label));
     let noteTimer = null;
     el.note.addEventListener("input", () => {
       const it = items[state.idx]; const cur = state.answers[it.sample_id] || {};
-      state.answers[it.sample_id] = { v: cur.v || "", note: el.note.value }; save();
+      state.answers[it.sample_id] = { v: cur.v || "", corrected: cur.corrected || "", note: el.note.value };
+      save();
       clearTimeout(noteTimer);
       noteTimer = setTimeout(() => { if ((state.answers[it.sample_id] || {}).v) postAnswer(it.sample_id); }, 800);
     });
@@ -166,7 +206,14 @@
     });
     document.addEventListener("keydown", (e) => {
       if (e.target.tagName === "TEXTAREA" || e.target.tagName === "INPUT") return;
-      // Left = 正確/一致 (YES, the left button); Right = 錯誤/不一致 (NO, the right button)
+      const cur = items.length ? (state.answers[items[state.idx].sample_id] || {}) : {};
+      const inCorrection = cur.v === "NO";   // correction sub-question is visible
+      // 1 / 2 pick the correct-label candidates when the correction block is shown
+      if (inCorrection && (e.key === "1" || e.key === "2")) {
+        pickCorrection(e.key === "1" ? el.corr1.dataset.label : el.corr2.dataset.label);
+        e.preventDefault(); return;
+      }
+      // Left = 正確/一致 (YES, left button); Right = 錯誤/不一致 (NO, right button)
       if (e.key === "y" || e.key === "Y" || e.key === "ArrowLeft") { answer("YES"); e.preventDefault(); }
       else if (e.key === "n" || e.key === "N" || e.key === "ArrowRight") { answer("NO"); e.preventDefault(); }
     });

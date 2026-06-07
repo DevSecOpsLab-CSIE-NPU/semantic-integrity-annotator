@@ -41,8 +41,14 @@ def main():
         if not a or not s:
             continue
         val[(a, s)] = r.get("consistent", "").strip()
-        if r.get("note", "").strip():
-            note[(a, s)] = r["note"].strip()
+        # Fold the human-proposed correct label (when 'consistent'==NO) into the note,
+        # so it is preserved for richer analysis without disturbing the YES/NO R-columns
+        # the scoring harness reads.
+        parts = []
+        corr = r.get("corrected", "").strip()
+        if corr: parts.append(f"→{corr}")        # e.g. ->negative
+        if r.get("note", "").strip(): parts.append(r["note"].strip())
+        if parts: note[(a, s)] = " ".join(parts)
     annotators = sorted({a for (a, _) in val})
 
     base = list(csv.DictReader(open(args.blinded)))

@@ -18,18 +18,18 @@
 
 <div class="wrap">
 
-  <div class="task">
-    <div class="task-q">任務：判斷下方的「待驗證標籤」是否<u>正確反映原句的情緒</u>。</div>
+  <details open class="task">
+    <summary class="task-q">任務：判斷下方的「待驗證標籤」是否<u>正確反映原句的情緒</u>。<span class="sub">（點此可收合）</span></summary>
     <ul>
       <li><b>正確／一致</b>——標籤公允反映了句子的情緒（正面／負面／中性）。</li>
-      <li><b>錯誤／不一致</b>——標籤與句子的情緒相矛盾或明顯不符。</li>
+      <li><b>錯誤／不一致</b>——標籤與句子的情緒相矛盾或明顯不符；接著請選出<b>正確的標籤</b>。</li>
     </ul>
     <div class="reminders">
       <span class="no">只判斷情緒（正面／負面／中性）。</span>
       <b>不要</b>評斷文法、翻譯品質或句子是否通順，也不必判斷強度或細緻情緒。
-      反諷／否定句請依作者的<b>真正意圖</b>判斷。 ·　快捷鍵：<b>Y</b> 或 <b>←</b>＝正確、<b>N</b> 或 <b>→</b>＝錯誤（答完自動跳下一題；上下題用按鈕）。
+      反諷／否定句請依作者的<b>真正意圖</b>判斷。 ·　快捷鍵：<b>Y</b> 或 <b>←</b>＝正確、<b>N</b> 或 <b>→</b>＝錯誤；標錯誤後按 <b>1</b>／<b>2</b> 選正確標籤。
     </div>
-  </div>
+  </details>
 
   <details>
     <summary>更多說明 / 邊界情況</summary>
@@ -67,6 +67,13 @@
     <div class="btns">
       <button class="btn yes" id="yes">正確／一致 <span class="kbd">[Y 或 ←]</span></button>
       <button class="btn no" id="no">錯誤／不一致 <span class="kbd">[N 或 →]</span></button>
+    </div>
+    <div id="corrBlock" class="corr hidden">
+      <div class="q">你判定為<b>錯誤</b> —— 那正確的情緒標籤應該是？</div>
+      <div class="btns">
+        <button class="btn cand" id="corr1">— <span class="kbd">[1]</span></button>
+        <button class="btn cand" id="corr2">— <span class="kbd">[2]</span></button>
+      </div>
     </div>
     <textarea class="note" id="note" rows="2" placeholder="選填備註（為何難以判斷、反諷等）"></textarea>
     <div class="nav">

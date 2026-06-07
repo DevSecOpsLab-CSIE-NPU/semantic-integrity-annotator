@@ -41,6 +41,9 @@ header .sub { color: var(--muted); font-size: 12px; }
 .btn:active { transform: translateY(1px); }
 .btn.yes { background: var(--yes); } .btn.yes:hover { background: var(--yes-d); }
 .btn.no  { background: var(--no); }  .btn.no:hover  { background: var(--no-d); }
+.btn.cand { background: var(--accent); } .btn.cand:hover { filter: brightness(1.1); }
+.corr { margin-top: 14px; border-top: 1px dashed var(--line); padding-top: 14px; }
+.corr .q { margin: 0 0 10px; }
 .btn.sel { outline: 3px solid #fff; }
 .btn .kbd { font-size: 11px; opacity: .8; font-weight: 500; }
 
@@ -63,7 +66,8 @@ header .sub { color: var(--muted); font-size: 12px; }
 
 .task { background: var(--panel); border: 1px solid var(--accent); border-radius: 10px;
         padding: 14px 18px; margin-bottom: 16px; }
-.task .task-q { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.task .task-q { font-size: 16px; font-weight: 700; margin-bottom: 8px; cursor: pointer; }
+details.task > summary { list-style: revert; }
 .task ul { margin: 6px 0 10px; padding-left: 20px; }
 .task li { margin: 4px 0; }
 .task .reminders { background: var(--panel2); border-left: 3px solid var(--warn);
