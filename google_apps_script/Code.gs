@@ -19,12 +19,22 @@
  */
 const SHEET_NAME = 'responses';
 
+const HEADER = ['updated_at', 'annotator_id', 'sample_id', 'consistent', 'corrected', 'note'];
+
 function sheet_() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   let sh = ss.getSheetByName(SHEET_NAME);
   if (!sh) {
     sh = ss.insertSheet(SHEET_NAME);
-    sh.appendRow(['updated_at', 'annotator_id', 'sample_id', 'consistent', 'corrected', 'note']);
+    sh.appendRow(HEADER);
+    return sh;
+  }
+  // Self-heal the header row so it always matches HEADER (e.g. after the
+  // 'corrected' column was added). Rows are written in HEADER order, so fixing
+  // the header makes existing rows read correctly without deleting the tab.
+  const first = sh.getRange(1, 1, 1, HEADER.length).getValues()[0];
+  if (first.join('') !== HEADER.join('')) {
+    sh.getRange(1, 1, 1, HEADER.length).setValues([HEADER]);
   }
   return sh;
 }
