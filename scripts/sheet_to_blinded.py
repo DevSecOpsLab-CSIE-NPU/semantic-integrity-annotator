@@ -22,12 +22,22 @@ Usage:
 import argparse, csv, sys
 from collections import defaultdict
 
+# Annotator IDs that must NOT be counted as independent raters for inter-rater
+# reliability. AUG_rubricB is AUG re-annotating under a second rubric: it is the
+# SAME human, so including it would inflate agreement (it is an intra-rater retest,
+# not an independent rater). Its rows stay in the Sheet (a useful rubric-robustness /
+# test-retest signal) but are dropped from the κ/PABAK scoring built here.
+EXCLUDE_ANNOTATORS = {"AUG_rubricB"}
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sheet", required=True, help="Google Sheet 'responses' export (CSV)")
     ap.add_argument("--blinded", required=True, help="original annotation_blinded.csv")
     ap.add_argument("--out", required=True, help="output filled CSV for the harness")
+    ap.add_argument("--exclude", default="", help="comma-separated annotator_ids to drop, "
+                    f"in addition to the built-in default {sorted(EXCLUDE_ANNOTATORS)}")
     args = ap.parse_args()
+    exclude = set(EXCLUDE_ANNOTATORS) | {x.strip() for x in args.exclude.split(",") if x.strip()}
 
     sheet = list(csv.DictReader(open(args.sheet)))
     need = {"annotator_id", "sample_id", "consistent"}
@@ -35,10 +45,13 @@ def main():
         sys.exit(f"{args.sheet}: expected columns {need} (got {list(sheet[0].keys()) if sheet else 'empty'}).")
 
     # latest value per (annotator, sample) — the Sheet already upserts, but dedup defensively
-    val = {}; note = {}
+    val = {}; note = {}; skipped = defaultdict(int)
     for r in sheet:
         a, s = r["annotator_id"].strip(), r["sample_id"].strip()
         if not a or not s:
+            continue
+        if a in exclude:
+            skipped[a] += 1
             continue
         val[(a, s)] = r.get("consistent", "").strip()
         # Fold the human-proposed correct label (when 'consistent'==NO) into the note,
@@ -50,6 +63,9 @@ def main():
         if r.get("note", "").strip(): parts.append(r["note"].strip())
         if parts: note[(a, s)] = " ".join(parts)
     annotators = sorted({a for (a, _) in val})
+    if skipped:
+        print("Excluded (not independent raters): " +
+              ", ".join(f"{a} ({n} rows)" for a, n in sorted(skipped.items())))
 
     base = list(csv.DictReader(open(args.blinded)))
     cols = list(base[0].keys())
