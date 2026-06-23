@@ -1,1055 +1,1005 @@
 {
-  "items": [
-    {
-      "sample_id": "CV0001",
-      "source_text": "Dellas web A different kind of murder story that is not of the normal type it is Vers apparent that della was crazy from the start",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0002",
-      "source_text": "Elitism No reflection on authors capabilities. Just had a hard time in this year of 2020, to read of the excesses of the ultimate richest people with out sensing the world outside.<br />Perhaps the book ultimately balances this, but I didn’t last through the first chapter.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0003",
-      "source_text": "Tedious! The title of the review says it all.  If you need a good night's sleep, this book will help you acquire one.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0004",
-      "source_text": "Really nice. This is a classic story with such wonderful charachters. They really did a great job getting you to fall in love with all the characters. Marvelous.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0005",
-      "source_text": "Great tale Almost put it down after I started reading.  Couldn't figure out where it was going and then it really picked up!  I was hooked!  It was hard to put down.<br /><br />Deinitely on to the next book!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0006",
-      "source_text": "Great Intro to Clayton Graham Great collection of short stories that will quickly get you hooked on Clayton Graham.  I follow him on Facebook and receive his newsletter, the latter of which usually includes a short story, too.  This collection reminds me of the stories collected in the old Twilight Zone Magazine that my mom used to subscribe to.  Each tale is unique.  You'll find a bit of mystery, thriller, paranormal and sci-fi.  Grab this book while you can and delve into the world that is Cla",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0007",
-      "source_text": "Good concept but a little confusing I liked the idea of the story but had a hard time keeping up with all the people concerned. But will plod on.  Hoping it will clear up a little",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0008",
-      "source_text": "More baseball; less personal life than Leavy's \"Big Fella\" Well done, probably more of the Babe's baseball life than Jane Leavy's \"Big Fella.\" Pretty darn good. I like that at the beginning he states \"This book is not for kids.\"",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0009",
-      "source_text": "NUMA at work Another thought provoking Clive Cussler book, gets one thinking about the changes in our world.. about our thoughtless use of water and air. Makes one work at recycling. Got me on the waiting list for Cusslers latest book in large print at the library.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0010",
-      "source_text": "WOW, So freaking Hot This is epic Love. And is so sexy and the sex is just WOW.  I can't wait to read the next book.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0011",
-      "source_text": "This book was fitting for Trumps authoritarian rule in process ... This book was fitting for Trumps authoritarian rule in process today.  I see Trumps wall as the Krakow' Wall in the Ghetto.  For me, America is in grave danger of losing human rights on a massive scale.  It's time for Civil War in America to protect the lives of the immigrants!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0012",
-      "source_text": "Enjoyable enough This story tells the tale of a troubled family. The teller is the niece of a man who had his own serious trouble who searched throughout his life to find his place in the world. When it seemed that he found himself, his life was taken, leaving behind more questions than answers. The niece never knew her uncle until she began her search to find out why her life was as mysterious as his.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0013",
-      "source_text": "Not a Clean Romance Interesting setting:  drought-induced fire sweeps through the woman's neighborhood.  Her property is targeted for potential flooding control by the authorities.  That's where the love interest comes in.  But it's not long before there's attention drawn to intimate details.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0014",
-      "source_text": "A very good read. Very well written story of a father's role in the life of an addicted son. I had read the son's story some years ago and happened to purchase this book without realizing the connection. It was interesting to hear the father tell the same story from his point of view. A very good read.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0015",
-      "source_text": "I like character development ... But within a short time of reading I was painfully aware of the author's informing of this or that character's mannerisms and their import. And often a passage was heavily burdened with historical info which became droning in my mind. Wasn't my cup of tea. Sorry!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0016",
-      "source_text": "Expecting To Die As usual this book keeps your total attention all the way to the end. Or is it the end? Just keep looking for the next one in the series",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0017",
-      "source_text": "Loved It! This was my first book by this author, and it was beautiful.  I loved the writing style and felt for all of the characters.  Could not put it down.  Great read.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0018",
-      "source_text": "This book contains useful information and it is available for free from Amazon. This book contains useful information and it is available for free from Amazon. The prudent person would be wise to store up as much of this information as possible while it is readily available at no cost.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0019",
-      "source_text": "Nice story This was a good story with drama and romance. Gruesome at times but with the happy ending I always like.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0020",
-      "source_text": "A sweet story... This story reads like a classic fairy tale. The prose is reminiscent of some of the old stories and easy to read. It is told from various character viewpoints, which is not my favorite way to read a book, but it works fairly well. Overall, I really enjoyed this story; it is sweet and satisfying.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0021",
-      "source_text": "A GOOD read! Michael Grumley has written a good, fun, interesting story. The first part, the build up, is interesting. He does a great job of moving between events that are occurring simultaneously. There are many 'cliffhanger' moments. Towards the middle and end it was hard to put down, and just a really good read. Not going to give details. Just read it and have a good time.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0022",
-      "source_text": "Keller's Designated Hitter Keller's Designated Hitter, Keller the Dog Killer, Keller’s Adjustment and Quotidian Keller are all stories that are a part of Hit Parade, which has many more Keller stories as well. I’d recommend getting Hit Parade instead.<br /><br />[[ASIN:B000JMKO2I Hit Parade (Keller series Book 3)]].",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0023",
-      "source_text": "I absolutely love this series. I dunno, between Komi and Manbagi, it's a tough choice. They're both cute, they're both adorable, and they're both totally in love with Tadano! He's gonna have to make a very, VERY hard decision soon. I think we all can agree that he will end up with Komi, since this series is named after her and is mainly about her. Ah, to be young and in love. Such fond memories for me.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0024",
-      "source_text": "I love that there is a dream cast Good story. Kind of...somber? Not sure if that was the right word. She was upbeat and they had good times but there was an overall sadness about the book. Not a bad thing, just a thing. The Ian storyline seemed pointless to me, not sure what it was supposed to add to the story, it could be removed and nothing would change.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0025",
-      "source_text": "Omg everything about this book was beautiful! Pause Omg everything about this book was beautiful! Pause, not Dominic or that trifling cousin, but you know what I mean.<br /><br />It was like spoken word. Poetically thugged out.<br />They were so good for each other! I'm just mad she kept that secret, and it's fasho bout to have Zu back in that effed up headspace. Heck, it's got me in a effed up headspace.<br /><br />Rae and Zeek and Hope and Freak are hilarious.<br />I can't wait until the next ",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0026",
-      "source_text": "NoDoz in book form! I am more familiar with Gregg Olsen's true crime books but this is a novel I could not put down.  WOW!  He stitched this book together like an award-winning quilt.  One caveat:  don't read the last 5 or 10 chapters and then expect to get a good night's sleep.  This one held on to me and reluctantly let me go about 3:00 AM.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0027",
-      "source_text": "Great book This is a definite must reread. The whole series is amazing.. thriller, suspense,romance. Ivy writes the best books. She is an amazing author.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0028",
-      "source_text": "Interesting but not great The story was interesting, the characters moderately developed and an enjoyable read, but not real compelling to continue the series",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0029",
-      "source_text": "Good book This was a good book had a little trouble getting through it the politics of the race were very interesting to read about",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0030",
-      "source_text": "Sweet Cats I like how they had to in the old house for so long with it being so cold.<br />  I liked that never gave trying to rich the kitten got itself stuck in the wall and was able to get freed from  the wall.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0031",
-      "source_text": "So-so The story idea is a great; it's a truly good tale.... But it's told in such a long, boring (in places) way that I skim-read the first half of the book and several parts after that. This is a case of a new writer with tons of promise publishing his work before it was really ready.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0032",
-      "source_text": "Beautiful storyline This is just one of those books you don't want to put down. The characters are well developed and the story draws you in from start to finish. The writing is witty, lots of action and romance and I personally believe would make a great movie. Tanya Bird is an amazing author and I highly recommend this book and all of her books...",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0033",
-      "source_text": "Relaxing Reading What I like about Danielle Steel books is that they draw you in within the first few pages and are a relaxing, easy, enjoyable read!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0034",
-      "source_text": "Inspirational This book would be an excellent read for young people  of high school and college age.  So many of them are bullied and ridiculed about the  appearance.  It is also excellent in pointing out that so often the parents bear responsibly.  The book is a bit \"Pollyanna\" in that losing weight doesn't mean you will become a beautiful swan, a supermodel, become rich, have the opposite sex drooling or gain revenge on an unfaithful, abusive lover or spouse.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0035",
-      "source_text": "love love love this too short story Kate is Kate in Wilmington or Atlanta or anywhere. She sees a problem and solves it no matter what it takes. Indomitable. Dear authors, please write faster.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0036",
-      "source_text": "Hannibal Jones - A Christmas story This is a short story for Hannibal Jones. He is too tired to make it home and stops off at a small motel. He notices strange behavior that leads him to solving the mystery. Had Hannibal not visited the motel that night, a mystery would have gone unsolved. I enjoyed reading this during the holiday season.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0037",
-      "source_text": "Pretty good. Much better than the first book. Of course I am constantly comparing to the series as I watch them. But better job.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0038",
-      "source_text": "I just don't know WHO to trust! Oh….my…. goodness…. That’s all I can say after finishing ‘Trust No Bitch 2” by Authors Nene Capri and Ca$h. Part two picks up right where part one left off.  I won’t go into detail because I don’t trust myself to not spoil a few twists lol, but I will say I cannot wait for part three to see how everything will play out. If I could give this book 100 stars I would. It was a banger!!! Grab your copy today!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0039",
-      "source_text": "This is a wild ride! Grabbed my attention immediately! First one I have read by Ernie Lindsey. Simply could not put it down! I just finished it and am looking at purchasing the rest of the series.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0040",
-      "source_text": "Book Thus book give  you a good idea of what women's prison is like, not many people talk about it or explain what goes on.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0041",
-      "source_text": "Made me want to read more books by Richard Phillips I can't recommend these books (Second Ship, Immune, and Wormhole) highly enough.  Mr. Phillips is highly qualified to write the technical portions of the books (physics, computers, and action sequences) and he creates characters that you care about and believe in.  Happy reading!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0042",
-      "source_text": "Whew!!!! Babbbbyyyyyyyy!!!!!! You wrote the hell out of this book!!!! Couldn't put it down!! From the first page to the last was action packed. I'm glad Bleu got her happily ever after, and that Tonya came to her senses.. That Isaiah was something TERRIBLE",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0043",
-      "source_text": "Nice idea, a bit ponderous Nicely written novel, but the amount of detail becomes a bit ponderous.  I appreciate the author's knowledge, but a bit fewer details would help the novel flow better.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0044",
-      "source_text": "I'll love to see what the next book is about This story is fast paced and is interested enough to keep you reading but a little unbreakable.  How can these girls keep spiraling downward all the time?  I've known this author for a few years now and have enjoyed her books tremendously,  but the books are now leaning toward erotic.  Keep it clean or change the description to a higher heat level.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0045",
-      "source_text": "Known to us as 'Twas the Night Before Christmas This is the poem we know today as 'Twas the Night Before Christmas. I don't know when the title was changed, but I am assuming this was the original title. I just looked it up, and found this title followed by the fact it is more commonly known by the title we now use which comes from the first line. The article also said this was first published anonymously in 1823 and later attributed to Clement Clarke Moore who claimed authorship in 1837. Intere",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0046",
-      "source_text": "Oh yes Wow sizzling sex with cowboys along with a well written story and I'm entertained.  Loved this book. Oh yes and a happily ever after.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0047",
-      "source_text": "Should be required in every high school's curriculum. Well written, considering it was put into a book well over five hundred years ago. The outcome has been well known, but the sacrifices those men made are beyond modern day belief. It was spellbinding and horrifying at the same time.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0048",
-      "source_text": "Good read This was an easy read.  It read like a book that could eventually be a movie, it has some good espionage .  Got through it quickly.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0049",
-      "source_text": "Whodunit? The story line gave many suspects. Always nice so it keeps you guessing. I was wrong. You might be too! Have a read and enjoy!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0050",
-      "source_text": "A good read. A very good read. Accurate on actual historic events of the time in which the story takes place. Good plot and strong character development.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0051",
-      "source_text": "Nice Mystery involved Very well written.  Kept me reading throughout entire book.  Can’t imagine being in Ann’s shoes…what a horrific situation to have been in!!!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0052",
-      "source_text": "Loved these book and read several so far. Great characters too Great characters, loved all the books and have read several of them so far. I will read the rest, they are interesting, no gore, cuss words and are not real scary.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0053",
-      "source_text": "Good read for beach holiday! Even though a predictable story line, it was a charming setting with likable characters.  It was a feel good ,easy reading book!  Perfect for a relaxing beach get away!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0054",
-      "source_text": "Great suspenseful series I didn't write a review for every book in the series but now I think about it someone may see one of the other books then want to read a review. I truly love this whole series and have no complaints about any of the books in the series. If Melinda would ever write another book to this series I would definitely get on the band wagon to reading it and writing a review.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0055",
-      "source_text": "Loved this book I have loved every one of the books in this series.  Jessie knows how to take a character with flaws and bring them to a spiritual awakening or renewal and become closer to God.  I'm not a \"beach\" person but I find myself looking at beach life a little differently...thanks to Jessie and this series.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0056",
-      "source_text": "Interestong and sometimes even witty This book provides fascinating, detailed stories, written from the perspective of the 19th Century. I disagree that it is badly written, It's just written in the vernacular of it's day. Plus, there are several witty asides and comments on the antics and motivations of the protagonists that I thoroughly enjoyed. If it has any fault, for me, it's that it's narrative can get overly long in some places.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0057",
-      "source_text": "Hot Rock Star Keeping The Beat is book 3 in the Heart Beats series.  I really enjoyed this book.  This story is a second chance rock star book.<br /><br />This book was a great read! It was a fun, fast read and the author has a good writing style.  I love the characters in this book, and I thought Dylan and Claire had great chemistry.  I can’t wait to read the next books in the series.<br /><br />Overall I really enjoyed this story and would recommend it.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0058",
-      "source_text": "My review of the book of Matthew I love re-reading this first book of the NEw Testament.  I'll never master the pronunciation of the strange names they had however.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0059",
-      "source_text": "It was ok Really slow. Lots of character development but no real plot or twist. Good for a light read but easy to put down.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0060",
-      "source_text": "Great I love Holmes. I've been waiting for another story that includes him/her. This was really fun. I'm going to check out the rest of the series.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0061",
-      "source_text": "Speaks to me Eric LaRocca fiction is my jam!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0062",
-      "source_text": "Lost in a confused life A confused life for a young person which started at an early age. Obviously she followed a pattern of life that she was exposed to. A lesson to be learn.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0063",
-      "source_text": "Easy read. Love this book, just like all the other ones I have read from Jill Sanders. They are not easy to put down, they have sadness, happiness, funny and suspense all at the same time, and romance as well.<br />I would recommend her books to anyone who likes to read terrific, heartwarming books.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0064",
-      "source_text": "Fun, Fun, Fun Finally I know what Steampunk is. Had read several stories and seen some jewelry but hadn't put the two together. Now will be looking for more in the future.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0065",
-      "source_text": "Average I love stories of the sea and high adventure. This story was only ok. I like the Island and the inventions on it. I would love to live there myself! Jared is kind of annoying, the story has lots of cliches and some of the information was just plain wrong. With that said, I did read it all, and it was a pretty good idea.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0066",
-      "source_text": "Reads like it was written by a teenage girl. I thought it was awkward and formulaic.<br />I would recommend it for (surprise) teenage girls and did not finish it.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0067",
-      "source_text": "Haec Maga A magic adventure sets up presumed parameters and hints at the warmth of hidden affections. Readable with the occasional quotable lines! Of course one is drawn to read the next volumes and perhaps even to re-read this first book.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0068",
-      "source_text": "Is there more This got interesting real quick. For a story with not a lot details it was amazing. I also hoping there is more from River and Stephen. With the abrupt leaving from Stephen gets the story unfinished.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0069",
-      "source_text": "Will Emmie Be Found? What would it be like for parents to lose their child?<br /><br />This book has so many emotions and fears, and I cannot wait<br />to read the next book, 0Dear Jack\".",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0070",
-      "source_text": "Jean Ehrhart This book shows small town America and also high school kids that are making the transition from kids to adults. It also tells the story of different kinds of families.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0071",
-      "source_text": "Loving this series! So far, I am loving this series!  It not only brings life to the historical events of King Hezekiah's time, but is a great faith-builder.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0072",
-      "source_text": "Pricing a bit of a ripoff Its a bit of a rip off to sell a 100 page book at this price. Clearly the author has cut up a regular novel into bite sized chunks and is selling them individually. Normally I could get one of the regular sized books for $10.00. I will end up paying $20 to buy it in pieces. Still, it is pleasant to read. I do a lot of travelling and use the Kindle in airports.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0073",
-      "source_text": "good story Took a while to fully develop. As soon as it did it was a read that was hard to put down.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0074",
-      "source_text": "What did I just read?! I am at a loss for words to review this novel.<br />I could not put it down, even though I wanted to at some points. I just couldn't tear myself away from it, or sleep after I read it.<br />I'm stunned. It lived up to all the hype, and then some.<br />Wow.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0075",
-      "source_text": "Good for the Correct Audience I think if you enjoy dark graphic novels, you will like this. I only tried it out because of the great word of mouth on it so i don't think I am the intended audience - I prefer more convensional story telling. But that doesn't mean that it wasn't good.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0076",
-      "source_text": "Ok Enjoyable juvenile but at least the story is not buried in reams of pseudo tech .  thank god does not seem to do a Clancy in his juveniles.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0077",
-      "source_text": "A bit different! The whole idea of \"reverse harem\" was very different but then why not...there was a purpose after all!<br />I did read book one and two!!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0078",
-      "source_text": "Enjoyable I enjoyed.  The main character and the dog were likable, but most of the characters were kinda shallow low life types.  I am not really into hearing about how much people drink and smoke (yawn).  It had a good little mystery going, and I didn't guess the ending.  But the characters were so boring, I had a hard time keeping them straight in my head from night to night (this was a good going to sleep book).  I finished it, so it entertained, and the price was very good(free).",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0079",
-      "source_text": "#no More hashtags please!!!! It would have been MUCH better without the constant #hashtags. I just kept skipping over them, but they were a major distraction from the story. Plus, Maisey was all over the place, it felt like I was reading from a prepubescent teenagers stand point. Not a\"21\" year olds. The story itself needs fleshed out more.  The concept is an good one, it just needs more.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0080",
-      "source_text": "Its okay.. Its okay.. I dont feel like I learned anything that you don't already know from picking up on a few online articles. They just constantly repeat themselves over and over.. the book could be half the size if they didnt repeat so much.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0081",
-      "source_text": "Another breathholding book by James Patterson This book was great. I've been following the Cross family since the beginning. It's so cool to see little All grow up and wasn't to be just like his dad, the famous Alex Cross!!!!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0082",
-      "source_text": "Well Crafted. Witty and we'll crafted. Original storyline and kept your interest throughout.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0083",
-      "source_text": "Case Lee Somehow Prevails!! If you like the Case Lee series, don’t miss this one.  Lots of action and do-Goode antics, plenty of mission impossible, and a nice dash of brothers - and a sister- in arms.<br /><br />While these do stand alone, I think one is much better positioned for enjoyment by reading this series from the start. I now feel like I know all of the characters, the author’s character development is quite good.<br /><br />Action, adventure, foreign locales, horrid bad guys, and did ",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0084",
-      "source_text": "Five for story three for editing Great story, plot fantastic as well as the characters.  Humor was spot on.  Now the only downside, editing.  In a word, bad.  Why did Jeremy's name change when he was promoted? Back to plusses, the references to Star Wars and Star Trek were great.  Biblical references spot on.  Expectantly waiting on next installment.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0085",
-      "source_text": "Good story I liked this mystery, and really enjoyed the interaction between Holmes and Watson. The mystery kept me guessing, and the style of writing kept it moving right along.<br /><br />This is part of a series of books I do enjoy, but with they all had been edited better. This is better than the earlier books, but still needs a good editor to find those missing punctuation marks and some places where the wrong words have been used.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0086",
-      "source_text": "Get ready for a disturbed person. I started reading and could not stop. It was non-stop for the whole book. I normally don't read non-stop but you sort of get caught up in it.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0087",
-      "source_text": "Fun Time Travel Novel This book made me laugh and love the main character. She came alive on the pages. All the characters are interesting and will be fun to see how they develop in the series.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0088",
-      "source_text": "Another Phenomenal Story!! 🔥🔥 I swear from the very beginning of the book till the very last page I was in love with Alaric and Phoenix character!! They definitely complete one another. They needed each other to overcome their fears, pain, and love. I love love love their bickering. Phoenix does not hold back lol 😂 that’s my girl!! I hope we get books on the side characters....let’s see who will be next!!<br /><br />So download Tarnished Empire and get ready to be sailed away with the love and h",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0089",
-      "source_text": "Good, so far Just starting book.  So far so good.  Cindy Trimm is a great author.  Can't wait to finish the book.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0090",
-      "source_text": "Interesting read, makes you really think about the ugliness of war I really enjoyed reading this book, although the story wasn't necessarily a pleasant one. Then again, war isn't a pretty subject. y liked the way the author told the story, going back and forth between the past and present. It was sad and also quite intriguing how many lives were affected by the war in so many different ways. Love, loss, family relationships, all themes that came into play throughout the novel.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0091",
-      "source_text": "Lots of good, lots of not so good. Good for the price, that is sure. Lots of good stories here but the layout sort of suffers. Maybe I missed it but there didn't seem to be any index or table of contents included. It is sometimes hit or miss in picking out the better works (Kipling wrote lots and lots of it wasn't really all that good). Still, there is a lot to like in the collection. I just wished it were better organised.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0092",
-      "source_text": "Was okay Was a okay read",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0093",
-      "source_text": "Sad! and Scary Very readable.  Some unexpected information, but nothing inconsistent with what was able to be gleaned from OUTSIDE the White House.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0094",
-      "source_text": "I wanted to like this book I don't know why I didn't enjoy this.  The writing is fairly good.  I just was not invested in the characters, at all.  The protagonist's detachment from his wife seemed juvenile and angsty.  Not the book for me, I guess.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0095",
-      "source_text": "Classic one of my fav books of all time, can't believe they haven't made a movie out of it. So funny and clever, the main character is so unlikeable!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0096",
-      "source_text": "Great ending to the series Loved the turn of events in Zephyr and Maria's story.  If it were so easy to bring peace we would all be happy and able to live in peace.  My only question is what will all those dragons do on earth?",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0097",
-      "source_text": "WOW Well DANG.<br /><br />Didn’t see any of that coming! I have to say that I was surprised. A good, quick read!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0098",
-      "source_text": "Great read. I completely enjoys the book, But it seems to leave a few loose ends, and I don't believe there is another one in the series coming out. So whats a person to do!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0099",
-      "source_text": "A little too much Started off good then just got repetitious and confusing. However I appreciate that the author tried something different so props for that.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0100",
-      "source_text": "adventure with murder and mayhem This story is one which builds into an epic about a very adept swindler who uses the spirit world of departed lost souls to stir up various communities to pay the spirits to move on. Such a flimflam has been used to fleece citizens many times over the years.  On this occasion a number of people were killed, one being the minister of the local church who was much loved and respected. This story runs much longer than necessary, mostly by being too wordy when expres",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0101",
-      "source_text": "Cute This was a cute book.  It was just what I needed. The storyline was a little predictable but I enjoyed the book. It was an easy read.  I will read others by this author.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0102",
-      "source_text": "A good book. I really enjoyed this book. It was interesting and the story different. There is romance, family,relationships between five people. There is a teenager who is wise beyond her years, a delightful young lady. The adults become good friends and the story begins. You'll enjoy this book.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0103",
-      "source_text": "Somebody should shake the hell outta Zee Like sis what is even your problem? I enjoyed this book but it definitely could have used some fleshing out of feelings and thoughts. Or maybe Zee just didn’t actually know what her feelings were that’s why they were never made clear. Which was really frustrating. So the dates and the concept was cute but I was way to annoyed for way to much of this story. Not my favorite obviously but I still love me some Rilzy Adams.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0104",
-      "source_text": "Home is from the heart Maya is content with her life until the day she finds out there is much more than she knew. Luke finally feels it's time to let Maya know she is his mate and sees it all crumble apart.  This story grabs you by the throat as these two travel the road of discovering who they are and what home means.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0105",
-      "source_text": "A pleasant surprise! This was my first book by Debbi Mack, and I'm always a little leary of of $.99 Kindle books, but this was a pleasant surprise!  The book is well-written and the character development of Sam McRue was well done.  Least Wanted kept me interested in the plot, and now I'm looking for more books by Debbi Mack.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0106",
-      "source_text": "Short easy read I wasn't expecting much. There is no fluff. It gets to the point and covers all the points. Some examples/screenshots, tables would have been useful.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0107",
-      "source_text": "Fascinating! Another fascinating story by this brilliant author.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0108",
-      "source_text": "Cute holiday romance I really enjoyed this book, the main characters were adorable and I loved how they went from neighbors to more. Worth the read!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0109",
-      "source_text": "Great book for any kid! My autistic 8 yo son has difficulty recognizing nuances and regulating his emotions. Ms. Ortega’s books quickly became regular reading for us.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0110",
-      "source_text": "Outstanding! A poignant visit into a world that is entirely possible.<br />This is a story of an act of betrayal, for geopolitical reasons, against the rest of humanity. What is left is a collect of chosen survivors collected into 50 colonies. This book is an accounting of one of those colonies. It is a well written and thought provoking tale with characters to root for and against.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0111",
-      "source_text": "An excellent 2nd techno thriller with a dash of SciFi The author has hit a home run again. Plot was developed and the twists were pretty well hidden. Another entertaining and well written story from this great author. If you haven’t read his works in the past, pick this one up!!!  If you have, this is a great follow on read. Long live space opera and techno thrillers!!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0112",
-      "source_text": "Great third in the series, but still some questions Loved all three books in this series.  Written from a first person perspective, which fits the character absolutely perfectly.  A bit of a letdown at the end - not knowing what will come of everyone, especially our &#34;hero&#34;.  Will there be a next one?  What happens after or on Alcatraz?",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0113",
-      "source_text": "Notorious Oh my gosh! What a fantastic journey! I didn't want to put this book down and fell asleep in the early morning hours reading. The characters are wonderful, interesting and engaging. I love the banter between Dru and Gabriel I really didn't want this book to end. It is one of the beat books that I have read. I look forward to reading the next book in this series. I would love to read Gabriel's mother's story. How did she find herself in the Sultan's harem?What was her life like living i",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0114",
-      "source_text": "Magnífico Otro magnífico, intrigante, estupendo libro de la colección del detective Morles. Me encantan todos los libros del detective Morles, intriga de principio a fin. Me alegra mucho encontrar nuevamente un nuevo libro del magnífico autor Miguel Ángel Itriago. Deseo que siga escribiendo sus maravillosos libros, uno de mis autores favoritos.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0115",
-      "source_text": "The 1984 of our generation... This could be the most terrifying book I've ever read...because so much of what's in this work of &#34;fiction&#34; is already happening...Facebook, Twitter, drones, cameras in every public place...and more...<br /><br />Dave Eggers is brilliant, and this was un-put-downable!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0116",
-      "source_text": "Not a mystery I went into this blind, I didn't read more than a few lines of the synopsis.  Overall, it was an enjoyable book but nothing great.  I kind of figured from the start the plot twist was going to be once the one twin disappeared.  Then I didn't even notice the last twist at the end at first.  Now that I read a couple reviews the ending/twist I get.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0117",
-      "source_text": "Interesting insight into the time and travel adventure I read  this each night for 30minutes or so before dropping off to sleep.  It was a light adventure we'll told.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0118",
-      "source_text": "A love story at it’s best The novella is another winner! The scene of Montana’s last night on stage brought tears to my eyes. The author packed a lot of substance into just a few pages.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0119",
-      "source_text": "Unspeakable crimes It was difficult to put down. Unbelievably deceitful mother who had such control over her children, husband and friends.  Great writing.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0120",
-      "source_text": "Ready for the Next in the Series It is rather disconcerting that both the good and evil characters pray. Otherwise, this was a good book. Toward the end it was a page turner and ended with a cliffhanger. The parts about the white leopard were cute and so well described whenever it was mentioned.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0121",
-      "source_text": "Really like Faith Martin's way of spinning a story Really like Faith Martin's way of spinning a story.  Her people involved with the plots begin to be a have neighborly way of being worked together.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0122",
-      "source_text": "riveting This book took all of my attention from page 1. The hell these people have to go through day to day is incredible. Well written and makes you appreciate our men in the service.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0123",
-      "source_text": "Wow what a book! Ariana is the princess that life like the way she wanted having fun! Then she realized it was time to make a difference.<br />Jameson grew up in a family who worried more about power then worried about their son. He decided he's going to serve his country.<br />After a mission goes wrong his mother interfere in his life.<br />Now it's his job to keep Dignitaries safe That's when he meets Ari. Oh Kathleen has hit this book out of the park! This is a book of strength and change if",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0124",
-      "source_text": "Fun I really enjoyed the book. I love a good chic lit novel and this good one funny,cute,and romantic<br />I will be reading more of her books.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0125",
-      "source_text": "Limbus is back Limbus is back with even more perfect jobs for you. While this is set in the same world I didn't enjoy it as much as I did the first one. I thin I spent too much time comparing it to the first anthology that I just couldn't get into this one. Not that the stories were bad, I just didn't enjoy them as much.<br /><br />If they do another anthology I know I'll read that one too.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0126",
-      "source_text": "Not his best work Usually love John Grisham books but this was not his best work. Didn’t care much for the plot or how it played out plus it left some things completely unanswered so overall a bit disappointed.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0127",
-      "source_text": "Wow Duuuuuude<br />Wow<br />I…<br />Yeah<br /><br />I think I feel even more in love with the night keepers in this one. Phenomenal writing and story/world building.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0128",
-      "source_text": "Realistic couple Loved the storyline of two very good childhood friends who meet up twenty years later. Believable, funny and good cookie along the way. Did I start to write and they....nope, you need to read the book",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0129",
-      "source_text": "Maiden or Bride This book in the series features Anna Mae and her family.  We follow as she b comes a very capable adult as she cares for first one sister, then all 5 of her siblings?  Will she devote herself to them as or will keep them, but still find her own happiness and love to.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0130",
-      "source_text": "Love those little bursts of goodness! Very informative,but would have liked more recipes using them because it's hard to know how to get the most out of them.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0131",
-      "source_text": "Host with the most I really appreciate  what Tyler went through growing up. The rags to riches story of a beloved comic is truly  miraculous.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0132",
-      "source_text": "Surprise Ending What a good mystery . Just when you think you  know  what  is going on , there is another twist. Loved the way everything came together in the end.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0133",
-      "source_text": "It was free A cute book for kids, but you can read in 3 minutes. I got it for free so no complaints.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0134",
-      "source_text": "Not really worth my time I am not sure why I even got this except that it was free.  I run a &#34;niche&#34; website already but I guess I wanted to see what kinds of things other people suggest. Some of the things in this book were not accurate and there really wasn't anything in this book that you couldn't find out on your own with very little effort.  I feel like it was a waste of my time.  I also think they should change the cover because if it didn't say NICHE WEBSITE at the top I would hav",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0135",
-      "source_text": "enjoyed Enjoyed it a lot and already pre ordered the next book.  Liked the characters and the setting.  What more can I say",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0136",
-      "source_text": "Your Perfect Year Such a good read<br /><br /> I didn't know what to expect but I really enjoyed this story!<br /><br />Jonathan was so lost and didn't even know it. I was excited for him to change/improve his life by really learning how to live!! Hannah deserved to be happy after what happened with Simon - I felt her pain at the loss of him.<br /><br />I'm glad I picked up this book, it kept me turning pages to see what would happen next.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0137",
-      "source_text": "Awesome I love all the Harry Potter books. This one is especially good because it adds more new characters and new types of magic to the story.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0138",
-      "source_text": "Object to \"samples\" that aren't I want to know what this book itself is like,  not read some puffer's introduction.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0139",
-      "source_text": "A master craftsman. I cannot come up with sufficient accolades for Mr. king, but I have loved reading his works down the years.  The proudest title I can have is as one of Mr. King's &#34;Constant Readers&#34;.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0140",
-      "source_text": "Title is so misleading This is not the book I thought I was buying.  This is a gory book about gladiators and slaves.  I'm a real history buff and love to read novels that flesh out the history to give it a feeling of real people and events.  This has really nothing to do with history.  So disappointing.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0141",
-      "source_text": "Fun story with a well developed plot and characters Great story, very well written, I want to read the next book!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0142",
-      "source_text": "A fading point “I think, therefore I am”.  This implies belief in the thinker.  So, what happens when, abrogating belief in all things, the thinker continues along their path?  Why, system shut down, of course.<br /><br />Other things encroach and ensue along the path, as life finds its way,  naturally.  Interactions occur.  For better or worse.  Reactions, occasionally judgement, happens.<br /><br />Hmmmm.  Seems better to cultivate good judgement, all in all.<br /><br />Very talented story wri",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0143",
-      "source_text": "Amazing Romance, action, happiness and a wedding.  Meeting Wyatt and getting to know Marigold better, has been a fantastic journey through Nocturne Falls.<br /> I love this town, totally can't wait for the next amazing adventure.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0144",
-      "source_text": "Get ready to binge read‼️ It took only a chapter or two for Reacher to come out, take charge and in the end-save the day. And that’s not a spoiler. You wouldn’t expect anything less would you? But the proof is in how he pulls it off and for that you’d better start reading…Now!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0145",
-      "source_text": "Excellent reading! This is, as are all of the Kay Sharp novels, a stand alone. It is also captivating and, if you read the way I do, an afternoon’s read!  A teen age girl is brutally raped and murdered on Wildfire Ridge.  Kay and Elliot are assigned the case.  It takes them in many different directions some that lead to Kay’s background secrets.  Others take them back to high school and all it’s angst along with the horrors the misuse of social media can cause.  It is well written and extremely ",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0146",
-      "source_text": "Mayhem, indeed I was fearful it might have become repetitive, but happily it did not. The story line inserted new elements that were both interesting and compelling.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0147",
-      "source_text": "Will make you laugh. I found myself starting to overthink this book. The characters act in ways that didn't make sense to me.<br />If you're looking for a good laugh, this book fits the bill. If you're looking for a grab you and hold you book, stick with several other authors. My favorites are Robert Ludlum, John Le Clair, and John Clancey.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0148",
-      "source_text": "decent installment Since Heppner appears to be giving up on the &#34;lost this and that&#34; series, this is the best one he has going.  Decent installment.  Naive AIs are a bit too human in their thinking, and easily defeated.  Heppner appears pessimistic about ability of humans to cooperate.  This appears to be just a reflection of contemporary politics.  I would prefer an author try to have a vision for how things might be different.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0149",
-      "source_text": "And It Goes On and On. Just finished Book 6 and ready to begin Book 7. Just can't put these books down. Invite you to join me in reading Dustin continues' My Mirs Saga series.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0150",
-      "source_text": "Did not finish this book - did not appeal did not finish",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0151",
-      "source_text": "Very very fun I thought the pace, idea, and just plain fun of this book made it one of the best that I have read in a while!  I really enjoyed it and it did make me laugh.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0152",
-      "source_text": "Information overload Interesting, but too technical for me.  Enjoyed reading about sci fi that could become reality.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0153",
-      "source_text": "A Good Read! Every other book in this series has been five-star.  However, this book was slow and complicated.  I like an uncomplicated page-turner.  Hopefully, the next installment will be better.  This is the second novel that I have read where John and Carmen are married.  John needs to be a little less over-bearing.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0154",
-      "source_text": "Laugh out loud Twain in fine form. Funny and wry and so true. He notes the flaws in perceived virtue and the virtues of perceived misconduct. And, he'll make you laugh out loud too.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0155",
-      "source_text": "Not a fan of author or character Not a fan at all.  Writing is very basic.  Author does not incorporate basic FBI techniques and strategies.  Target audience may be high school students.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0156",
-      "source_text": "star carrier not the best of the trilogy but finishes it off.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0157",
-      "source_text": "Dogs can talk I loved the whole story but seeing it from a dogs view was fun.  If all the stuff for the blind is real I'm very impressed.  Guide dogs I've seen and canes but loved the idea of the voice phone and the computer with the braille.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0158",
-      "source_text": "Daddy issues? If you like daddy kink with a large age difference,  then Naughty is for you.  Heaven is looking to be saved and Hawkin does not disappoint.  The scenes are as steamy as ever and the writing is as excellent as always.  That being said,  the age difference was rough for me to get through.  It's just not my kink,  but if it's yours,  then,  man,  can Frankie tell a great story!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0159",
-      "source_text": "good enough For some reading on the beach, but not for anything else, not if you're interested in character or plot development.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0160",
-      "source_text": "Okay and interesting  story Spoiler alert. Liked learning about seed distribution back in the day. Characters okay  except that the second female Seraphina, was bat s..t  crazy. From the first introduction she is nuts. How is this unknown??? She lives in her own little crazy world, is basically lazy, and self centered also. Does horrendous things, how can it ever be okay?? Maybe its me but I felt she took over the book, but, titled &#34;The Seed Woman&#34;, she should not have been focal point. ",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0161",
-      "source_text": "Stupid, don't bother!! I have never read such a stupid book.  It is just about a very dysfunctional relationship; nothing interesting; it just goes on and on about nothing but nonsense.  DON'T waste your money like I did; I bought all three books.  Lesson learned, buy a series one book at a time.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0162",
-      "source_text": "REBECCA FORSTER Good mystery!  Lots of interaction of the characters; really puts you in the story line and has you &#34;assisting&#34; the attorney with your thoughts!  Hard to put down, keeps you reading until all hours of the night!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0163",
-      "source_text": "Every book in this series is hard to put down I like the many different characters and odd plots, it is a mind bender. I'm an old fart so maybe this is a generational thing but it would be nice if the author eased up on the F bomb.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0164",
-      "source_text": "Well worth the wait I loved this story. It had a lot of diversity but I kept wondering what nationality is Dante? Usually I can tell which direction a story is headed, but this one kept we going. I found myself rooting for Maze & Ivy from beginning to end.<br />I got this book over 1 year ago & it took me sometime to read it. But once I got started, it was hard to put it down. I can't wait to get started on book 2. This is the first time I've read anything by Ms Sinclair but it won't be the last",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0165",
-      "source_text": "Good Story. Not earth shattering but a nice  story of friends and family.  Quick read.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0166",
-      "source_text": "Don't miss this amusing highlight of life I grew up with the music of the Man of Lamancha, but never read the book. My opinion is that for anyone in the same boat if you haven't read this story your missing out on one of life's pleasures.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0167",
-      "source_text": "Love Edie Claire This book went right along with the whole series. I love her style of writing & Leigh Koslow! Would recommend the whole series-can't wait for the next!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0168",
-      "source_text": "A Dead Husband What a page turner!  Death or rather murder, shopping, luxury homes and lots of money, hacking conniving and pure mayhem!  Best reading in a long time!",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0169",
-      "source_text": "Witch is when everything went crazy Love these stories. They are light reading just what I need before I go to bed. My only complaint the books are to short",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0170",
-      "source_text": "Enjoyed. Filth is actually an acronym about failing in London so went and succeeded in Hong Kong. Sort of a refugee from the Empire and what happens when he grows old and returns to England.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0171",
-      "source_text": "Missouri in Flame was different, from other westerns I've read. It was good as a once reader. It didn't make me want to read a follow up book I bought it because I liked the first book I read by W.R. Benton. I do have another of his book War Paint yet to  read and I will buy more books by him.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0172",
-      "source_text": "Another masterful Edition Military science fiction at its highest level!  Can't wait for the next edition.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0173",
-      "source_text": "Good quick read I wanted a little more from the plot, but as always, loved reading Gillian Flynn. Not enough mystery for me",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0174",
-      "source_text": "hard to believe this won any prizes The storytelling wasn't bad. The writing was awful. The prologue and epilogue weren't bad, but in between, this is a great example of why show don't tell isn't such a bad rule for writers - this book was almost all tell, and the prose was at a 7th grade level at that.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0175",
-      "source_text": "Good read At first I was going to put the book down, not wanting to read another war story. It could have been written by my father who also served in the Korean war. I now have some understanding of another senseless war.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0176",
-      "source_text": "Loved it First one I read in series now I’ll read them all!!!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0177",
-      "source_text": "I loved the book I loved the book. The characters were great, especially the animals. There was suspense and humor and scariness. I enjoyed it immensely.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0178",
-      "source_text": "Unable to like the main character The entire book--right up to the midpoint of the last chapter--was not enjoyable to me because the main character's attitude was so terrible that I could not root for her at all. Even though she seemed to be changed for the better by the end, it came \"too little, too late\" for me to have a good feeling about the book after I'd finished it. In my opinion (for what it's worth), fiction does not have to smack the reader in the head with a lesson or moral for it to ",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0179",
-      "source_text": "Great read I loved this book! This author was new to me and was suggested by Amazon, I really enjoyed it. I haven't put my phone down all week! Good story line, reminded me a bit of the walking dead series. But overall a great read!!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0180",
-      "source_text": "Good Reading Enjoyed this book. It was light reading and also romantic.  Author did a good job with the characters. I liked the touch of mystery.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0181",
-      "source_text": "I'm loving this series! I just finished this and I'm ready to jump into the 5th book in this series! Great mysteries and characters!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0182",
-      "source_text": "6:20 Another well written novel by David Baldacci. A great story that I couldn’t put down. Lost out on some good sleep.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0183",
-      "source_text": "Story sucked me in I watched the series before reading the books and fell in love with the storyline and characters.  Then, being hooked, I read the books.  I read all 8 of the available books in two months time.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0184",
-      "source_text": "Excellent I'd read this to understand what's really going on in this world. However, don't buy the Alien Agenda. Fallen angels are involved here along with Satan forsure.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0185",
-      "source_text": "Compelling Once started must keep reading till the end.  I could not read fast enough to see how this could ever be resolved.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0186",
-      "source_text": "Great Series! I listened to episodes 1-3 together so I will use the same review for all three. I love Sue Ann Jaffarian's writing; there's just something about it that grabs me right away and I don't want to stop until I am done with the story. This new serial is no different although it is a lot darker than the previous series I have read by her. I loved the characters and the direction the series seems to be headed. The added bonus of RV travel and outdoorsy adventures adds to the intrigue. I ",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0187",
-      "source_text": "Seemed Pretty Juvenile to Me The author says that his study of Crazy Horse transformed his life and those of millions of his readers. I was ready to be educated and amazed. Unfortunately, I couldn't make it through the first chapter. Perhaps you can, and there is an epiphany waiting somewhere down the line. If so let me know, I really was looking forward to learning all about Crazy Horse.",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0188",
-      "source_text": "A compulsive read I received an ARC from NetGalley in exchange for an honest and independent review.<br />A relationship breaking down because of the after effects of each person having lost a child and having been brought together through their tragedies. Strong emotions are at the heart of this book which is described as a psychological thriller, although I'm not sure that's how I would label it.<br />This book was not what I expected, nor did it go in the direction I though it would. Simply w",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0189",
-      "source_text": "Great story. Great story line.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0190",
-      "source_text": "You Almost Have To Have a Sister Sure.  Sister might be the closest friend, the only one that can read your true emotions on your face but sometimes even they don't get it.<br /><br />Kiss the Tiger proved to be, for me, an entertaining quagmire of girls chasing boys, boys chasing girls and everybody being less than honest in the chase.  If you've ever been between 17 and 25, you know this is the part of the book that's not the author's imagination.<br /><br />I'd recommend it to my niece cuz I ",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0191",
-      "source_text": "Interesting polio story This is an easy read.  Easy to predict what's going to happen, but still has an air of mystery. Everything is a bit too tidy especially the ending.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0192",
-      "source_text": "Origin story of Dr. Paolo Cortazar The Vital Abyss deals with the origins of Dr. Cortazar and provides an insiders perspective of the early days of Protogen and the study of the protomolecule.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0193",
-      "source_text": "Thrilling Scenes from the Interior In the style of confessional writers, Pat McGrath pulls you through each scene of his complicated past with speed and suspense. He delivers a real psychological page-turner.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0194",
-      "source_text": "Friendships & Love I love following this group of friends looking for a balance between professional success and love. Their friendship is supportive and a goal.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0195",
-      "source_text": "Absolutely outstanding This book was outstanding. King hit it out of the park. He's stumbled a few times with his endings in the past several years, at least in my opinion, but this novel was darn near perfect, start to finish. I'd always hoped he'd write a sequel to Salem's Lot, but if this is the one sequel he writes, he crushed it.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0196",
-      "source_text": "What if? This is a What If stiry: what if ISIS actually conquered the USA.  At first, I was irritated, thinking this was just another version if hating all Islam for the actions of a small radical fundamentalist group, something like the yellow peril stories of the 30s.  But it is about good people and bad people of all sorts and the drive to be free, an old fashioned adventure told in today's terms.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0197",
-      "source_text": "Hanna Delight at Christmas Sweet romance story. A quick read and delightful tale about reconnecting the past anxit with today's  realities. Very predictable read but nice afternoon adventure",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0198",
-      "source_text": "Cute Great free book to enjoy and pass time on long car rides. Some common tongue registers but lots of new ones unheard before.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0199",
-      "source_text": "John W Mefford John W Mefford has done a great job with this series of several different characters. I am thoroughly enjoying it and it was good to be back with Alex Troutt. Ready for the next adventure!",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0200",
-      "source_text": "Book is a must have what can I say. Colleen Coble is above the rest. A real author. Nothing ametuer about her novels. Keeps you on the edge of your seat. I read until 3:30 am because I could not put it down.  Clean suspense.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0201",
-      "source_text": "Decent read Not a book I would read more than once. Motivational yes, but not something I would pay for.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0202",
-      "source_text": "Fun and flirty I loved this introduction to Caysen and the boys.  This is a fun and flirty first in series and I look forward to the rest of their stories.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0203",
-      "source_text": "Great story! This was a very good book.  The plot was very well thought out and the characters were very developed.  They came off the page as people that i would want to know.  This story is full of heart. Stories like these are my favorite because you can get lost in the emotions of the characters.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0204",
-      "source_text": "I hope it is made into a movie! When Waylon Pike committed murder in the first few chapters, I wondered what was in the rest of the chapters. A well written and paced legal drama that kept me turning the pages and guessing is what unfolded.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0205",
-      "source_text": "really short I love these books..but they are way to short.. but great story lines..I enjoyed reading all of the series..",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0206",
-      "source_text": "Laughed til I Cried This is one of the funniest novels I’ve ever read  There is some historical accuracy but the characters and plot are so crazy I giggled out loud throughout the book and the last chapter had me laughing so hard I was crying and couldn’t catch my breath This book would make a hilarious Prime movie!!! It would need a Henry Fonda type for Clive",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0207",
-      "source_text": "Fun and enjoyable I love these books. They are entertaining and fun. The characters are all so unique and developed and the story is very intriguing. I’d highly recommend anyone looking for a fun new story to check out Scott Pilgrim.",
-      "repaired_label": "neutral"
-    },
-    {
-      "sample_id": "CV0208",
-      "source_text": "Language I yry to steer away from books that used lots of cursing. I especially am offended by the ise of g. d.<br />Otherwise the book is mostly good.",
-      "repaired_label": "negative"
-    },
-    {
-      "sample_id": "CV0209",
-      "source_text": "What can I say, I freaking LOVE me some Callie and Lucas. The 7th book in the Thorne Hill series did not disappoint. The drama, as well as sex, was off the charts! As usual, I am left wanting more!<br /><br />Cliff hanger, after cliff hanger, I cannot get enough. I need to know what will happen with Callie, Lucas, the baby, Lucifer, all of the arch-angel douches, and more!",
-      "repaired_label": "positive"
-    },
-    {
-      "sample_id": "CV0210",
-      "source_text": "arrived on time and as described. arrived on time and as described.",
-      "repaired_label": "neutral"
-    }
-  ],
-  "n": 210
+"items": [
+{
+"sample_id": "RA0001",
+"source_text": "why did I receive this book ? I received this book for free, I do not know why.  I read part of it, but this is not my kind of book.  It is somewhat supernatural sleuthing, and I prefer regular police and detective books.  For the people who like scifi, this might be the thing.  But the creature presented as Angel is certainly not a witch, could be called a spirit, and there is where I stopped reading.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0002",
+"source_text": "Just OK I have been reading all the series that his author has produced. I rotate around from one to another. After reading 3 in this series I have decided that the characters in this lot are my least favorite for one reason or another and I won't be continuing. It's kind of a shame since I am so pleased with everything I've read so far.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0003",
+"source_text": "A Bittersweet Story True to Sparks' work, your heart will burst and ache throughout the book. It's so true that we should never walk alone through life.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0004",
+"source_text": "Not a Jane Austin fan, but enjoyed the book Having never read a book by Jane Austin (though I have seen three movies which I'm sure are different than the books) I was intrigued at the thought of one of Jane Austin's stories taking place in America at the beginning of the 1930's. Not quite sure what to expect, as I couldn't remember what happened in &#34;Emma,&#34; I began reading. Some of the characters drove me crazy! But I think they were supposed to do that. Others I liked and wanted to step into the story and help. And Emmeline . . . Oh, Emmeline! I was delighted that the author didn't ju",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0005",
+"source_text": "Best of the 6 So...to get Brad to turn the chopper around since her baby was kidnapped by the evil Mage she kicks him in the leg?  LOL.  He was gonna do it but she like freaked out or something.  Ok...what the freaking hell would you name a baby Grizzly?  LOL.  Are you serious right now?  OMG.  That poor child!<br /><br />Anyways, I have to say that this part was the best of them all.  Not sure if its because its the conclusion or what.  Everything kinda came together for their HEA.  I probably have been harsh with my reviews in this series.  Reason being is she continues to make these same de",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0006",
+"source_text": "Clean, Christian, Prayerful For those who are not particularly godly minded, this book may put them off; however, I found the stream-of-consciousness prayers well written.  The \"big reveal\" at the end did not have enough build up getting us to that point, and thus seemed convenient and contrived.  Main characters are shallow but likeable.  A good effort by the author.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0007",
+"source_text": "Not my cup of tea... I've come to the considered opinion that I don't much care for contemporary romance novels.  Oh, there have been a few that I liked, but by and large, I find them pretty boring.  Such was the case with 'Almost a Bride.'<br /><br />The 'forced to marry' trope is hard enough to take period and historical romances, but at least the conventions and mores of the 18th and 19th century makes it a bit more plausible.  To have this be a main point of conflict in this very 21st century novel strained my credulity to the breaking point.  While the hero, Dave, may have had many of the",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0008",
+"source_text": "Three Stars Works well.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0009",
+"source_text": "I enjoy the content But how it’s presented. I don’t know this book was lacking as was the first. Its okay at best. I wasn’t particularly moved and there was no real description of the krakens member other than being large. Honestly, such a disappointment.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0010",
+"source_text": "Well written and easy to read Interesting story but it became predictable.  Well written and easy to read.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0011",
+"source_text": "Review of the trilogy I have an ebook of the trilogy.  My app shows it as 930 pages.  This first book was a solid 4 stars.  It wasn't going to be the great american novel but it was a solid read with an interesting premise and an engaging heroine.  Around page 550 is when things start to break down.  At that point I started to think the heroine just has a death wish.  She repeatedly walks into questionable situations without sufficient backup.  But it's a spy novel and some spies are adrenaline junkies so, okay.  I am now on page 800 and our character has grown less competent as the trilogy go",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0012",
+"source_text": "Okay. But not as good as most le veque stories Story was ok. But i didn’t like it was much as most of le veque stories, it was overly simple I guess.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0013",
+"source_text": "decent start, but writing is careless... There are not just typos and errors with punctuation and grammar, but with time and sequence. When they are doing something Saturday, they are talking about \"tomorrow\" being Monday, (lawyers don't generally do) depositions on Sunday) and she wouldn't be watching TV with all the work she had to do if the stuff was due the next day. Besides,  they'd already said the deposition was on Monday. I'm not very far in it, but have no motivation to read more. A heroine who is pushing 30 is okay, even good, but she is a professional and has the speech patterns and",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0014",
+"source_text": "3.5 stars The title says it all I tried to read the first in the series but could barely make it through the sample. I recently saw that the third book in the series FORBIDDEN FRUIT had been released. This led me to try this author for the second time (l read WEEKEND AT THE LAKE earlier this year). The second book in the Z Pac Alpha Shifters series pulled me in just like the previous book I'd read by Taylor Brooks. She can write a compelling story.<br /><br />Similar to the beginning of the first book in this series one of the MCs is dealing with profound grief from the loss of a much loved an",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0015",
+"source_text": "Gives some incite to how Ronnie thinks. The writer takes off on to many tangents. The book is supposed to be about Ron Reagan, but the author gets carried away writing in detail about other people who have crossed Ronnies path. Would rather have read more about Reagan!",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0016",
+"source_text": "A good story I’m not really sure why this is considered a detective novel. It’s a good story with good characters but had some difficulties with the NYTF agency calling the detectives for everything that happens. I did enjoy the detectives themselves and Peaches quickly became my favorite character.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0017",
+"source_text": "A cute, paranormal, cozy mystery Holly and her love interest, Adam, have been dating for a month. There are no sparks between them given that the author has chosen to present their romance as a totally platonic relationship. They have yet to go so far as to exchange a kiss on the lips. The only affectionate touching that happens between them consists of a couple of hugs and a few kisses from Adam on Holly's forehead and cheek.<br /><br />In this book, the first one in this series, and the prequel novella, there has never been a description of Holly. I realize that might be difficult to adroitl",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0018",
+"source_text": "A writer to keep an eye on Impressive debut. It just wasn't the romance I was looking for. I stopped caring for Beth on page 196 - I wanted to take her calmly aside and say \"Beth, you're 38 years old yesterday, time to grow up.\". Toni I have one word for \"ouch\".<br /><br />That being said this would be an excellent book club choice. The characters are memorable and the story moves along briskly. Having the love story told by Beth made for interesting reading.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0019",
+"source_text": "Magical body switch novel Wendy is a harried, business woman, with two children and a useless husband. She's desperately in need of a housekeeper/nanny to keep thing going, while she's at work. In fact she needs live in help, because she works harder when she gets home. Celeste is a newcomer, and over volunteers to be of service to her children's school and her neighbors. Wendy bullies and belittles her often, but, then they wake up in each other's body and life. That means Celeste can go to work as Wendy. Or, she could pay her back by slacking off. That would be what Wendy deserves. Wendy, as",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0020",
+"source_text": "Too Drawn Out The book started to bore me after awhile. Too many things repeated and then when it finally should have ended it went on even more.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0021",
+"source_text": "This was a weird book I usually like Mary Kubica books. The pace of the book was so slow and when something did happen, I was scratching my head saying, \"Really? That's it?\" I love suspense books, when there is actually some suspense. I didn't find any in this book.  I didn't come to like any of the characters and I wished they would just grow up and go away. I didn't ponder on the book after I finished. Instead, I was glad I was done. That is 6 hours of my life I can never get back.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0022",
+"source_text": "Finding the Janes Lost Me Thank you in advance to BookishFirst and Doubleday Books (a division of Penguin Random House) for the advance review copy. A positive review was not required or requested as a condition. All thoughts and words are my own.<br /><br />This is the second “Alice Vega” novel by Louisa Luna. The first being “Two Girls Down”.<br /><br />While the main characters from this novel were introduced in the first one, this can act as a standalone read. There are some references to the first novel –however, the first novel isn’t required to be read to enjoy this one. Though it would",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0023",
+"source_text": "Best out of 4 Out of all the books in this series.  This was by far the favorite.  It seemed to have more development than the others.  Still lacks quite a bit background about this particular world its written in.  All in all it was the best out of 4.  The polar bear Sherriff finally finds his mate who is wayyy young but thats okay.  It was still sweet and he was really good to her.  It wasnt a wham bam thank you ma'am.  He actually took the time to get to know her a little and she also went through something terrible.  Ellie's definitely a damsel and lets Austin take the lead and care for he",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0024",
+"source_text": "OK, I've read it. When I started my reading list for 2017, I decided to go heavy on the classics, those books that always appear on those Read These Books Before You Die lists, 100 Greatest Books, blah-blah-blah. So I read it. It was okay, but I wasn’t exactly bowled over, it was a bit stiff and stilted. Not surprising considering the setting, plot, etc. “Oh, Lady Frillypants and Lord Salsburywichshireford! What an honor to see you at our daughter’s ball! Fa-la-la!” It wasn’t horrible, and I’m glad to have read it, but I did remove the other Jane Austen novels I had put on my list. One was eno",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0025",
+"source_text": "Great start but that ending... I liked this book but the problem with it is that I read it a week ago and can’t really remember too much about it anymore. I rated it a three star in my little jot down notebook with a few little notes so hopefully I’ll be able to review it well. Luckily,  I left myself good enough notes!<br />In this story, Nora Howell, her husband, their two daughters, and their incredibly loveable little dog move from California to New York in order to make a fresh start in Brooklyn. They pretty much expected to live in a small apartment but the brownstone they move to is ter",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0026",
+"source_text": "Donovan's Angel Sweet and funny story.  Its part of a series though and I didn't wanna spend the money to read the rest of them.  You would think if they are going to be writing books in a series they would be inexpensive if you want your readers to read them all right?  3.99 is a bit much to me and some of the books were 3.99.  Enjoyed the story though for being free.  I looked up the rest and found out they were out of my price range so I had to pass.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0027",
+"source_text": "Not so interesting as Book 3 Never really cared who killed who -  none of the new characters were likeable. The scenes with  Kate's family were unpleasant",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0028",
+"source_text": "lightweight It was a quick but ultimately unsatisfying read.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0029",
+"source_text": "Ending His Loneliness This is a very short story, only eleven pages, about an independent Omega determined not to be subjugated by an Alpha. But he is terribly lonely. He is feeling pressure from his family to settle down, but he has no desire to do so. All he wants is to find an Alpha to get him pregnant, then go their separate ways. If he has baby kittens to take care of he won't have the time to be lonely. But fate has something else in store for Remy.<br /><br />The author had the outlines of a very decent story. It only needed to be fleshed out more. But for what it's worth, despite the m",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0030",
+"source_text": "Unique plot, likeable main characters As a member of Penelope Sotheby's Advance Reader's Group I received a free copy of &#34;Murder in the Manse&#34; but that in no way affected my review. This story wasn't as good, detailed or involved as other Diane Dimbleby Cozy Mysteries but it still held my attention from start to finish.  I considered giving it 3 stars but since I like the main characters and the plot was certainly unique, so I deemed it 4 star worthy.  To me, the storyline seemed rushed and moved a bit too quickly.  There were a couple instances when I thought to myself &#34;are Inspec",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0031",
+"source_text": "i am depressed..... let me first say this author writes very well, both 1st and 2nd book were very well written. the characters she created are very realistic. i couldn't stop reading especially with the 2nd book but.... i was very angry with the main characters in the first book and my feelings didn't change much with the 2nd book.  how the story ended make me very sad and depressed.  i feel the 2nd story tries to re-paint the pictures of the main characters, but  i still believe Jenny is to blame for all the heartaches because she relentlessly pushed herself into jack's life.  Both of these",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0032",
+"source_text": "Better than the second book but not as good as the first The first half of this story was a bit boring to me. It picked up some once they were in London. All in all, this was a decent series, all together, but probably not one that I'll reread.<br /><br />1 star = awful! want my money back!<br />2 stars = bad but not horrendous<br />3 stars = decent\\good<br />4 stars = really good! will probably read again.<br />5 stars = excellent! definitely recommend and will definitely read again!",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0033",
+"source_text": "Poor Biscuit! Boy, it doesn't take long, does it? From new puppy to out in the dog house in just a few minutes (for me). However, being outside DOES have some advantages. For instance, how can you make a new friend if you're in the house all day with the same old friends? According to the title Biscuit has a new friend. My only suggestion would be that if someone makes a new friend, don't take him away as soon as you see him: at least give them a few minutes to play! Poor Biscuit. Get a friend, get rid of the friend. Sometimes the world needs to slow down so we can enjoy the ride!",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0034",
+"source_text": "Meanderer Still haven't finished because I'm halfway through and it's just a long, boring, wandering collection of anecdotes that aren't all that relevant to today -- other than some very broad themes. I don't feel like my time was well spent.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0035",
+"source_text": "Find the zombie, something ate all the brains I almost gave this story just 3 stars.  Honestly, its definitely on the cusp for me.<br /><br />First, Howard's moronic ability to suck the humor out of the tale gets worse not better.  And he even gets to hang with another character who also seemed able to darken the scenes they were supposed to make humorous.<br /><br />Second, the author put in more than one aside about his other books.  These needed to be footnoted with just a link to the comment, or needed to be in author's notes at the end.  Instead the story stopped and there was a paragraph",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0036",
+"source_text": "Meh The military details were lacking and kind of confusing,character interaction juvenile. Constant sex.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0037",
+"source_text": "Just Okay This book thinks it's more clever than it is. Written to be a psychological thriller in the vein of Gone Girl, it fails to hold the tension of that work.  The main characters are not written in a way where you connect much with them. Because of that, the reader is not very invested in finding out who is framing the main protagonist. The perpetrator(s) were not a surprise at all. The writer pretty much laid out bread crumbs and arrows pointing to them along the way. I found myself just flipping pages to get to the end.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0038",
+"source_text": "Great art for satire Not just the art, but the coloring is also great.  The problem is only the story and immature dialog.  It reminds me of Mad magazine parodies when I was about age ten.  Those were too corny for me then, but now I'm embarrassed to even read such drivel.  Lots of potential here for something sorely missing in comics.  That is National Lampoon style adult humor.  Gilbert Shelton still contributes to the Freak Brothers new stories but there isn't much in the way of younger blood to pick up where he left off.  Megg and Mogg comes close, but its not the same, and you will have t",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0039",
+"source_text": "Not my idea of romance. I had high hopes for this book. It began in an interesting way and then took a nose dive into depravity. Not my idea of romance. I didn't find a single character that was likable and found the sex scenes bordering on rape.  This read like an old time porn movie, written by a man who had no respect for women.  Sad, because the writing is very good.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0040",
+"source_text": "Very unlikable main character Clouds Tumble Down is the fictionalized true story of Sara, a friend of the author. Both her brother and new/potential boyfriend were killed in car accidents and then she moved from a city to a tiny town. The book is the story of a very difficult year or so. Parts were good, but most of the time I just didn’t like Sara. She had been dealt a rough hand, but even when good things happened, she acted like a spoiled brat. I didn’t find it to be that great of a portrayal of mental health issues, mainly because she was so unlikable. It also really needs an editor for th",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0041",
+"source_text": "Interesting start to series. I actually enjoyed this book.  I will say I do wish there was more to it.  There was so much that needed to be explained about their relationship.  Feelings etc.  I mean neither one of them said &#34;I love you&#34; when I know darn well they did.  So, I think the author jipped us on the relationship bit of Laney and Alrick.  Kinda disappointing.  There are more books to this series which I will be reading because I did enjoy it.  I might wait to read them when I find them on sale or cheaper.  Especially considering I was let down a little.  I will say I was entert",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0042",
+"source_text": "I liked it The reverse harem theme always alienates my interest, but I still read it. All in all, a good series with a wide and varied collection of characters.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0043",
+"source_text": "Interesting concept that could use some elaboration Interesting little read written by Casey Fry. She has a pleasant writing style. Her plot is unique and very interesting. The trouble I have that I felt rather rushed reading this book since the pace was very fast. De Facto Dead is more like a short story, and since it is on the shorter side the author throws a lot of information at you. In the beginning it was almost too much, trying to figure out who the characters are and what they are all about.<br /><br />The main characters are intriguing, however they do not get the chance to really dev",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0044",
+"source_text": "I liked the dog, but not the fact that he was threatened, abused, and almost killed. The heroine didn't trust the hero for good reason. The hero didn't trust the heroine because he was a jerk. There was too much essential background that took too long to get to. The plot wasn't cohesive. Too many things didn't fit together. There was no character development. The characters lied to and for each other. It was very predictable. I knew the villains as soon as they were introduced. I was excited to find a new series in this genre, but won't waste my time on the rest of it.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0045",
+"source_text": "3.5 stars rounded up 3.5 stars rounded up to 4. These stories are interesting (to say the least). A couple of the patients bored me.... One story about OCD was really great. A fictional, unethical therapist makes a great main character. Here's my problem with this book..in the end, the author tries to pull all the stories together, and it quite frankly didn't make much sense to me. At face value, it's fine, but when I thought about it, it made my head hurt. I know the author says the stories are in no particular order. I guess I need more than that. Was there only one Noah? What was his timefr",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0046",
+"source_text": "Meh I started this book with only a vague notion of what 'twee' was.  After finishing it I think the author has a similarly vague understanding of it.  The early sections make sense, but when he gets to punk rock and grunge it all falls apart.  Some of the things he classifies as twee make sense, but others just seem like subjects he wants to write about.  He conflates a number of pop trends that are seen in Brooklyn, but I don't see how they can all be twee.<br /><br />Most of the book is a list of what is twee and what isn't, with a little history and opinion mixed in.  He wraps it up with t",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0047",
+"source_text": "Dark, Grim, and empty Like so many stories I seem to find this story lacks any characters I wanted to cheer for.  The main character had potential, but tropes ruined that.  First despite her mother knowing that her daughter should have inherited great magical power there was a deliberate attempt to keep her daughter from truly knowing any magic.  Of course this ends up becoming the usual major plot point that was clearly designed to prevent cries of \"Mary Sue\", even though the trope of a child orphaned and never knowing the truth about who their parents are and what their inheritance might be",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0048",
+"source_text": "DNF - WORST HEROINE EVER! I put up with the unbelievable and beyond annoying heroine for as long as possible.  The constant anger & spewing of bull from her was more than I could take - just beyond difficult to continue to read & DNF!  15 yr olds like this kind of trash cause that's the maturity level of everyone in this mess.  Happily got it for nothing and that's what it's worth.  I must say that there are 2 or 3 of JTG's books that were good - especially Brutal Vows - an excellent, humorous, sexy, suspensful story with a really strong M and F lead; neither of them had to go one up on the ot",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0049",
+"source_text": "Dark, very dark. This book is one of the darkest I've ever read.  Most of the story had me wondering what else can happen and I didn't want to know. But I enjoyed the story. Noah, I hated then loved. Angeline, I think Noah sums her up best. A very interesting book and I would only recommend it to someone who can handle this sort of Dark, twisted genre.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0050",
+"source_text": "Shifter Crack! So addictive! Loved it! Yes, it’s full of insta-bond, little explanation of the werewolf world, and total acceptance of the existence of weres by humans. But, who cares?<br /><br />I didn’t. It was FUN to read and had deliciously FILTHY sex!!!! Virgin omega half were. Bodyguard alpha. The two can’t keep their hands off each other.<br /><br />Awesome scenes, NO mpreg. And a bonus for you lucky fans: knotting!",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0051",
+"source_text": "Not a bad read This is not a bad read, definitely helps to build you up. Every chapter is a good reminder not to lose site of the obvious. It is definitely not a “can’t put down” book.  The author get very real about herself & things that happened in the book which is refreshing to see people being real.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0052",
+"source_text": "I finished it, not the best read Once I start a book it has to be pretty bad for me to put it away. I finished this one to the end but it really did not ever grab me reading it.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0053",
+"source_text": "Nothing exciting.. I received this book free in exchange for an honest review. I heard this as an audio book instead of reading it. I liked how the narrator changed her voices for each character,however while the story line itself was ok I stopped after hearing 25% of the story. This is basically the boring and mundane day to day lawyer/receptionist  office politics, and was just going nowhere.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0054",
+"source_text": "The 1st book was not like this or I wouldn't have bought the 2nd in ... I read the first book of the series and really enoyed it. So I bought the 2nd one &#34;Beyond A Doubt&#34;. The book itself is very interesting. But I am reading on my Kindle Fire and the print on this 2nd book switches back and forth between the normal size print to a very small print...it changes about every 5th or so paragraphs and then 1 paragraph will be tiny print then it will have about 4-5 paragraphs of regular size print.and then another one that is tiny print.. It is most distracting and hard on the eyes! The 1st",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0055",
+"source_text": "Very Basic This book is informative, but in my opinion too basic and too short. Would have liked to see a little more.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0056",
+"source_text": "Easy to download Even though this was free I didn't really like the recipes, but that is just my opinion.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0057",
+"source_text": "They May Be Good for You but Horrible to Read If I could get a dollar for every mistake in this book as far as the writing goes, I'd have my weekend covered.  These recipes might be good for the body and soul but they are hell on the mind.  No true chef would write a recipe like this.  There is a format, a proper format.  Perhaps Ms. Grey ought to take a look at learning what it might be.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0058",
+"source_text": "okay, clean regency novel, fairly predictable, 3.5 Not a lot of errors, okay characters, but not any character development. Short, easy read.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0059",
+"source_text": "More education Needed Imagine this: 1.  There are 340,000,000 in the USA and let's say 60% are incapable of helping a nation to get back on its feet after a biological disease is released leaving 136,000,000. (the other 60% died).  2. The government knew something like this was going to happen at least one year before.  3. It sent out letters to 169 who were in the military, lets say 10% which is 13,600,600.  4.  None could have families.  Let's say 5%, leaving 680,000.  5.  Out of those, only 169 received letters and eventually 48 people were selected for 48 states because Mr. Molles didn't c",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0060",
+"source_text": "a light pleasant read with some big issues My major issue with Mr Lowell's writing is that all the shipmates from Wang's different ships have the exact same sense of humor, so the interchanges repeat from one book to the next. I had high hopes at the start of this book that<br />Agamemnon's crew would be different people, but no, they talk just the same as the Lois's and Wang too often is the same person as he was earlier in the series too. The subplot around his wife Jen shows he's matured in some ways, but also shows he's the same unbelievable man, a man who never loses his temper, always kn",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0061",
+"source_text": "More from the Wizarding World Short Stories from Hogwarts of Heroism, Hardship and Dangerous Hobbiesincludes sections on Minerva McGonagall, animagi (including instructions on how to become one), Remus Lupin, werewolves, Sybill Trelawney, naming seers, and Silvanus Kettleburn.<br /><br />This book is less stories and more a brain dump from JK Rowling. She’s always said she wrote a lot of backstory for various characters and came up with more information about things than she used in the original seven books. This little book was her chance to provide readers with some of that information as we",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0062",
+"source_text": "Set course for Angst Island, Whine speed! I'm trying to come up with a way to review this book.  And I find myself lost for where to begin.<br /><br />Honestly, this story scores all over the place for me.  I like the writing overall.  It flows and is smooth reading.  I found a few editing errors, but nothing disastrous.  I even liked the fact that the author was willing to take a big risk with the plot.<br /><br />Sadly, while I like the skill of Robert Childs.... I absolutely HATED his characters.  There is just no way to parse that.  The title of my review should hint at that.  Angst was a",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0063",
+"source_text": "Good Story This was a good story. The story flowed however there were alot of grammar errors so you had to reread some lines again to make sure you understand where the author was taking you.  The characters were an interesting dynamic and you were curious to see where the story was taking them.  This author needs a very good editor to review his work. With the errors, it was still an enjoyable read.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0064",
+"source_text": "Okay Monster Hunter Seige is a slow and boring buildup with Owen Pitt planning and preparing for his epic destiny with the powerful demon Asag which comes to a non-ending and a cliff hanger. Correira is dragging this series out.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0065",
+"source_text": "You Don't Want to End Up in Anomaly Flats A random collection of short stories spanning decades or more of time. I'm finding it hard to decide if I like this short story collection or the full length novel about Anomaly Flats. At least in the short stories, which are all fairly short, there's no characters to become attached to and then bitterly disappointed by. Just remember, you're reading horror stories and they rarely, if ever, end well.<br />So, if you're driving down the highway and see a sign that says 'Anomaly Flats Next Right' keep going straight. Better yet, turn around and head back",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0066",
+"source_text": "The first half is filled with stuff like that, and there isn't even a problem with ... This story is Superman without kryptonite. It has no real storyline, characters just plod along facing problem after problem that the ship gets them out of. I think the ship has more character than the others. There isn't anything this ship can't do, so what's the point? Locked in a prison under a mile of solid rock? The ship can mind meld you out. Need a remodel? Just think it and it's done. The first half is filled with stuff like that, and there isn't even a problem with communicating with the ship. It st",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0067",
+"source_text": "Twisty and some surprises... The storyline is unusual.  The characters not exactly likable but they have reasons for their actions.  The situations are sometimes silly and even macabre.  Was it really necessary for Crystal to have witnessed such a seedy sex scene in such graphic detail, considering who the person turns out to be?  I couldn’t see how it was important to the story to talk about the porno poses and photos.  Certain events made little sense with all the main characters following each other and spying on one another like master detectives. Certain ideas seemed to have appeared and",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0068",
+"source_text": "totally stupid i \"was\" enjoying this book ........... then not so much  glad its done",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0069",
+"source_text": "Not worth the read, too predictable and expected! Very predictable and easy to figure out. Not very engaging !<br /><br />The plot was too hard to believe And what you thought would happen did!",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0070",
+"source_text": "Tangled mess Book was okay. Glad it was free. The characters didn't grab me. The story was just okay. Rich gorgeous guy meets girl . a crazy kidnapper is thrown in to supposedly add suspense... not real original.  Almost didn't even finish the book but figured why not,it's free.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0071",
+"source_text": "Another new villain who doesn't make the story interesting As Kevin has produced more books in this series the quality of his heroes appeared to decline, and this is one of the better examples.  His villain this time lives almost completely in the shadows and operates so quietly that the story really struggles to build real tension.<br /><br />Add in the fact that Kevin's refusal to stick to one point-of-view character has the story jumping around like a Mexican jumping bean on a hot stove and this story ends up being one that lovers of the series will cheer for, but that others might find a b",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0072",
+"source_text": "More emphasis on series characters needed I am a huge fan of this series and of the Donovan and Sharpe families.  But this book does little to include any of them.  Colin and Emma are the main characters from the series, but we don’t see them often enough.  Instead, we are exposed to endless descriptions of English gardens, dovecotes, flowers, pathways and cottages.  There are many new British characters who are acquaintances of Oliver York whom I doubt (or hope) we will never meet again.  Occasionally we travel to Ireland or Maine and touch bases with a few of familiar characters.  But there",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0073",
+"source_text": "3.5 * a mixed bag: well-written but with some disappointing issues What works:<br />The setup: it's a rich steampunk/Victorian world and Renwick writes it well.<br /><br />The MC Lady Amanda is a great character--she's brilliant, determined and fearless.<br />The male MC Sebastian Thornton is is also strong, and they make a very combustible couple.<br /><br />The brother-sister relationships are realisticly complex, as are the parental ones, especially the Duke's with Amanda.<br /><br />The encounters between gypsy and gadjo cultures felt appropriate and added to the story.<br /><br />What doe",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0074",
+"source_text": "Not for the faint of heart I found the whole thing horrifying.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0075",
+"source_text": "HLB Reviews Ivan A while back I was super into mafia romances, and I made this huge list of mafia book series, and then I went and bought the first book in each of the series, this book was apart of that list. I don't know why but I think Russian Mob actually appeals to me on some level more than all the other kinds of mobs, maybe its the language, it just sounds rough like it goes along with the subject matter.<br /><br />This is one of those books that starts with a dramatic occurrence and ends with one too. So Erin is a pretty nice girl, she has good friends, a job, she's smart, and she's a",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0076",
+"source_text": "Basic info I would have liked for this book to have included more info<br /> It does state it's a quick start guide, and it does give the very basicd....",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0077",
+"source_text": "There was nothing that I want to \"recommend\" i've read a good deal of Logan Jacob's work.  I usually like the first 1-2 books in a series, but slowly become less and less interested due to what feels like a lack of character development and a plotless drift in the tales.  They just don't anchor to any one thing and the amorphous feel of the plot really gets to me.<br /><br />I really did enjoy Monster Girl base #1.  It had a nice hook and while the cast was very small, the characters played off each other well in the few worlds they got to visit.  I was looking forward to this book.<br /><br /",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0078",
+"source_text": "One Star I DON'T RECALL ORDERING THIS BOOK",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0079",
+"source_text": "A few of the reviewed models have some practical implications The book reviews about a hundred models, that analyze how rational beings should behave in various situations. A few of these models have some practical implications. Many formulas and the pictures are not readable in the Kindle version.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0080",
+"source_text": "Potpourri This one was hard to rate and yet it is my perfect representation of Frank Stack content.  It is hit or miss.  I love his time travel stories but there is only a smattering of that here.  Then he goes into history of the King James Bible, which I found boring.  From there you see a Phantom parody so really just refer to the subject to decide if you wish to pursue.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0081",
+"source_text": "Pretty Good. This is a good read, but it is a lot smaller than I was expecting. If it had been less expensive then I would have given more stars.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0082",
+"source_text": "LDS Mormons believe the Bible is Corrupt! So why buy it from them?????  Maybe their version is the one that can't be trusted. Here is a copy and paste of something I read on the internet about how the Mormon religion views the Holy Bible:<br /><br />Mormonism and the Corruption of the Bible<br /> by Ryan Turner<br /><br />The eighth article of faith in Mormonism states, \"We believe the Bible to be the word of God as far as it is translated correctly.\" Also, Mormons frequently claim that many \"plain and precious truths\" have been removed from the Bible. What these \"plain and precious truths\" ex",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0083",
+"source_text": "Get So Tired of Stepping Past Vegan Grease and Modifying Recipes I got REALLY tired of recipes with vegan grease -- oil, margarine, coconut grease, whatever -- and vegan sausage. I hate sausage; why would I want to duplicate it? And burgers. Made from ANYthing. I can read past boring people wanting to scarf yet another million burgers, but. But! I am ready for low fat plant based recipes I don't have to modify.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0084",
+"source_text": "I enjoyed the way the central character is being developed This has first book problems and I almost did not finish reading it but I pushed on and by the middle I settled down to overlook some of the editing faults and simplistic writing and simply focus on the story and characters.<br /><br />I  enjoyed the way the central character is being developed, being completely human in his emotions and faults but being extraordinary in developing his magic abilities. I liken him to a music prodigy who has a natural knowledge of how to combine musical notes, pitch and timing to create beautiful music.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0085",
+"source_text": "There are no pictures so you never know what the recipe should look like in the end I have used this cookbook a couple times but a few things make it hard to use.  There are no pictures so you never know what the recipe should look like in the end.  It's hard to shop as there is no &#34;shopping&#34; list, and you need to read the recipe to make the list.  The recipes look good, but I think I must be a paper cookbook girl as this one is a little inconvenient having my ipad in the kitchen the whole time I'm cooking. Just seems a bit risky.  If I print it, then I might as well have bought a regu",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0086",
+"source_text": "A Completely Different Motivation Well, Braden, I must say that was different. As a poet myself, I have never felt the need to write as a \"cathartic process of translating feelings into words.\" Nor have I ever thought it to be irrelevant whether or not the finished product was good. But since I write for a different reason that probably makes sense.<br /><br />I was reading the table of contents and thought this collection was \"all over the place\" which is fine considering your motivation.  It was interesting to say the least.<br /><br />Almost everything I write is religious poetry so we are",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0087",
+"source_text": "Fine for One Read 2.5 stars<br />This story sounded interesting, the cover was lovely, and the book was free, so I picked it up.<br /><br />I was a little confused at first because the book starts off with Tally as the main character. Then Julie and Susan. Then Reed comes in. Julie and Reed ended up as the main characters, and Tally really wasn’t in the book as much as Susan, so the beginning felt a bit odd.<br />I did like the characters and how different and yet alike some of them were. Tally had a story, but it wasn’t told in this book, so I’m guessing you have to read another book in the s",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0088",
+"source_text": "Different It was pretty out there. Just weird to follow.. But read it all. Don't really want to read anymore.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0089",
+"source_text": "DON'T BOTHER WASTING YOUR TIME AND MONEY DJ has no idea how to write, how to expand his ideas into something worthwhile.  He will never be a good author because he doesn't have much of an imagination.  The fight scenes are all the same, just the bodies change.  He cannot compare Lee Hardin to Jack Reacher (and we all know Tom Cruise could never be Jack either), Lincoln Rhymes, Jericho Quinn, Puller, Jack Ryan, Jr. or any other great hero designed by Patterson, Baldacci, Childs, Dean Koontz or many of the GREAT authors of the past and present.  He just doesn't have it within him.<br />He needs",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0090",
+"source_text": "Good for burying your head in the sand and demonizing those you don't like. Pretty much just an excuse to crap on the history of the left. Yes, the left had some awful foundations, but then again, the Republicans used to be the party of Lincoln. The original left and right look nothing like the entities that exist today in American politics.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0091",
+"source_text": "Not up to his usual standard of work I am a huge fan of the Watchers novel and expected so much more from this semi-sequel.  The wonderous backstory of the dogs gets buried under what, essentially, is a a simple crime procedural, almost to the point that I felt there were two different stories being told here. It also seemed, at times, as if there were two different authors at work.  There were long passages that were poetic and contemplative, and others that were reminiscent of a freshman English writing assignment.  Other than a few of the good guys, character development was sorely lacking.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0092",
+"source_text": "Tea Baggers, Part 2....sheesh The media stronghold on public opinion has done neither political parties any favors. OWS may have had great intentions, as did the Tea Party, but sadly it is foreshadowed by those \"chosen few\" whose words people choose to cling onto without ever exploring the issues. Oh but wait, there was no leader with OWS! Yeah, right. The interviews with college students who have no clue as to why they were protesting at Wall Street was excruciatingly painful to watch. The subsequent backstories of the \"movement\" such as the filthy surroundings, or who made a love connection",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0093",
+"source_text": "cute, light story This is a cute, light story that provided a nice break between some of the darker stuff I read. I adored Violet; she is positive, spunky, and just plain nice: the kind of person I would want to be friends with. Colin had to work a little harder to win me over, but he got there. I wanted to strangle his mother. ;-) Overall, it's a fun book and worth reading.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0094",
+"source_text": "Disappointing end, lots of questions Okay so book 1 wasnt great.  Book 2 was way better.  Book 3....not so great.  It leaves A LOT of stones unturned.  Like Rafferty's sister, Blake.  She was pretty upset about her Dad.  I also dont think it was fair not to tell her stuff.  Where are Holly and Gabby?  Its like the author wrote them out of the book.  Definitely unfocused.  I was expecting a better ending but it just doesnt feel complete.<br /><br />All in all its an okay series.  Its that middle ground kinda leaning towards bottom.  If your not expecting a lot from the series then you might lik",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0095",
+"source_text": "Needs a less broken MC Ah, dystopian LitRPG where Earth is suddenly transformed into a world filled with monsters and people can gain levels.<br /><br />But let's take a broken MC, who by rights no one should like.  Give him items that make him far too powerful to really be relatable, and then force him to go on a long quest.  At least this time its semi-relevant as he decides to meet his sister and then the \"game\" gives him a quest to do the same.<br /><br />Of course, we end up with map size problems. (someone doesn't understand driving distances across the US, or walking, or biking).  There",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0096",
+"source_text": "Too Hard to Suspend Disbelief A little better, in some ways, than the previous book but still, in my mind, lacking in many significant ways. I had been enjoying the book up until the county fair scene. \"It's got the devil in it!\" does this take place in modern times, as it appears to, or the rural 1800s? The neighbors of the McCloud family act like hicks who've never seen an automobile. I can understand shock and distrust but stoning children? Then the whole White House thing. No, I know it's a kid's story but you don't have to make things stupid. Three children, a demigod of sorts the Preside",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0097",
+"source_text": "Complex dysfunctional family relations Interesting story of a family divided by money, judgmental standards, lack of self respect and respect of others.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0098",
+"source_text": "meh I have no idea about the characters other than they are human and some are essentially immortal. It’s a fast read with really no character development.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0099",
+"source_text": "Doing Right On the Wrong Side of the Law A woman Bristol is a fixer and sometimes assassin. Like Cole, the ex-cop she is motivated more by justice than money. When  on the wrong side of the law joins forces with an ex-cop turned security expert.  When forced to frame an honest cop who is a friend of Cole's she realizes her morals come first. But the duo stumbles upon a human trafficking ring lead by rich, powerful, ruthless men. Doing what is right may just kill them both.<br /><br />This is a fast paced, fun read. Implausible but entertaining. The romance was predictable and the affection tow",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0100",
+"source_text": "Confusing It took awhile to get to the end of this story. To much back & forth. I wasn't going to read the next one but it only has one left, so I will finish one more.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0101",
+"source_text": "brought tears to my eye.... I'm torn between 5 stars for the quality of the plot and characterizations and 3 stars for the lack of editing, overused words (peeled, for example), and improper use of words--oh, and some poor grammar.  This is outstanding, but too expensive for something essentially unedited. After reading the preview, I could not have afforded the book, but found I had gotten it several years ago and just had not read it.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0102",
+"source_text": "3.7 stars lmportance of the mate bond Others did not find this book as enjoyable as I did, that is an understandable reaction. There were things that I did not like about the story also, but the good outweighed the bad in my opinion. Yes this is a predictable story, but that is why I am reading it. I enjoy shifter romances partially because of the strength of the mate bond, the promise of the mate bond, and the irresistible siren call of the mate bond.<br /><br />I like to see how different authors handle the fundamental tenets of shifter lore, all with a m/m romance twist. One storyline I esp",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0103",
+"source_text": "Needs more nutritional information I have been doing this long enough to know that net carbs plus fiber equals total carbs; but if you are not given any info about the fiber, you cannot calculate total carbs. While net carbs info IS better than no nutritional information, it isn't helpful to me without the fiber info.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0104",
+"source_text": "Ridiculous ending This could have been a very good book, and I was actually enjoying it up until the ridiculous ending. It was so farfetched and unbelievable that I was sorry I had read the book at all. It was as if the author couldn't figure out how to end the story, so just created some patently absurd scenes to quickly bring everything to a close. I gave it three stars because the journey through the book was good, maybe four stars, but when I reached the end it was such a big let-down, I should have only given one star.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0105",
+"source_text": "Not bad Decent start to a series. Strong female characters add depth and make the  story  relatable.  I just wish there was a surprise or two.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0106",
+"source_text": "Three Stars A nice light hearted book to read.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0107",
+"source_text": "I thought I'd love Benny and Frankie's story a lot more than I did... I have been looking forward to Benny and Frankie’s story since I met them in “At Peace”.  The beginning was spectacular! I love every second of Benny trying to convince Frankie to stay with him.  There is a lot of back story with Frankie and Benny and I feel like it might have been good if I read “At Peace” again before reading this.<br /><br />There were actually two books in between “At Peace” where we meet Frankie and Benny and their book but the book takes place right after “At Peace” ended where Frankie is shot.  Benny",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0108",
+"source_text": "Solid, simple, good. We have moments of great promise in this series surrounded by the game of &#34;let's make it so the main character knows nothing so the reader is always confused&#34; being played by the author.<br /><br />I like the characters although the romance is clearly grafted on the story.  It could help the story quite a bit, but instead it feels very artificial and lacking in depth.  The characters feel shallow because of that which is sad because Shae actually puts a lot of work into expanding the characters a bit.<br /><br />The main conflict is actually kept in the background,",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0109",
+"source_text": "I couldn’t put it down, but felt bound to the characters. I am a classical musician myself, otherwise I don’t think I would have chosen this book. There is so much unwritten in it that must be understood before the characters, plot come to life. I actually felt sad, uncomfortable, inspired, and angry all at the same time. Was it a dream or a book?",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0110",
+"source_text": "her worst book, but do read the rest of the series I hate to give just three stars to one of my favorite authors, but this is nowhere near as good as her other books. It seems like a pastiche of scenes, rather than a fully plotted novel, and I got to the end without being quite sure what the point was or how this book moved the series much. Important steps are taken at the end of the book, but up til then, the work is thin and largely disconnected. Hope the next one returns to Hodgell's usual fine writing.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0111",
+"source_text": "Not for me - too simplistic in many ways The Priest is a dystopian book that based the slavery on gender, written by Monica La Porta. The book is overall not poorly written, Editorial there are no errors that I really noticed and overall it had a decent flow. What was never really explained is how the women came to rule, because let's face it physically they are still the weaker sex so they have to use weapons and tools to get the upper hand for the most part. The story line was a tad simplistic and one dimensional lacking depth especially in regards to the puppy love between Mauricio and Rosi",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0112",
+"source_text": "Trouble!! Not as good as other Linda Howards books!",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0113",
+"source_text": "Not as good as the first two in series I was expecting more",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0114",
+"source_text": "Two Stars some good some bad",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0115",
+"source_text": "Good book First off, let me say that I love gore, blood and gross. And this book was good, but it just wasn't a 5 star in my opinion. First of all, the title has big shoes to fill. Yes, there's a cannibal orgy, but it's almost a love story. It starts and ends with a military storyline. Yeah. Blah. Failed experiment. Blah. I liked the cannibal part. But there was a ton of action. Like fist fighting. Not my thing so it was hard to follow. Still. It's a good story. Just not what I was expecting",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0116",
+"source_text": "Terrific trilogy finish (3.5)<br />This last book in the Farseer Trilogy was good. It followed right along with the others in story and pace. For an ending it tied up most things fairly well and, knowing there are many more books yet to read now, anything that may not have been as neatly tied up or is still nagging at the back of the brain may be answered in the future.<br />I can't really talk too much about what happens in the book since it's the last one. I don't want to spoil the enjoyment you'll get taking this last journey with the group. What you do know, assuming you've read the first",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0117",
+"source_text": "Not a fan Maybe it's great, but the tone is too young for me. A bit of a painful read so I threw in the towel.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0118",
+"source_text": "These Three Books are a Great Start for the Series There are many, really funny, story lines in each book<br />which are necessary since the rest of each book is non-stop action.  The main charter, Missy, knew she had some Witch powers but had no one to teach her how to advance her knowledge.  Missy is also an R.N. but the unit she worked in saw a lot of deaths.  She quit the hospital and went to work as a Home Health nurse for a company that cares for Paranormal patients.  Most of her patients are Vampires who were turned when they were old.  They lived in tenant owned apartments on the beach",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0119",
+"source_text": "Interesting concept. 33 short stories from all fantasy genres. I found this to have an interesting concept that I have not seen before. Each story has a prompt that appears, giving you the opportunity to try your hand at writing something yourself.. The very first story is my favorite. Each of these stories were in a competition.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0120",
+"source_text": "Good book for the saving in your future There could be more offered in this work.  It has a nice arrangement and great ideas.  He does give one a sense of accomplishing things and revealing ways that make it easier than you think.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0121",
+"source_text": "Cruel Beauty “I was raised to marry a monster.” –Nyx, CRUEL BEAUTY, page 1.<br /><br />CRUEL BEAUTY is an intriguing mashup of the fairytale “Beauty and the Beast” and Greek mythology. Nyx is a girl with a horrible destiny. The product of a deal between her father and Arcadia’s Gentle Lord — the prince of demons — she’s been raised from birth to marry and then kill him.<br /><br />But Nyx isn’t so happy about her destiny. She’s resentful, and rightfully so, because her father loves her sister, Astraia, and sees Nyx as only the means to an end. Nyx is Arcadia’s only change for the country to re",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0122",
+"source_text": "Didn’t love it didn’t hate it Hard to say much without spoilers. There were parts that were sweet and enjoyable. There were parts containing tedious details and parts where needed detail was missing. There was an emphasis on 1950’s morals, but they weren’t adhered to. There was a tragedy that was horrific. The worst aspects of the tragedy were in part prompted by the foolish acts of the adult victims. Owen’s backstory, giving the reasons he was a recluse, was well done. Sarah was just not realistic. Her supposed conflict over Owen’s previous sexual experience jarred with her easy and immediate",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0123",
+"source_text": "Light read This is lightly entertaining. Not a lot of plot, but there are a few twists. If you are looking for an entertaining light read, this may be your book. I did enjoy it.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0124",
+"source_text": "A good (but predictable) story... This was a good story with interesting characters. I thought the character development was great. As the novel goes on, I found myself becoming less and less sympathetic toward Leonie's father and Junius.  As a reader I also connected more to Daniel as he was developed more as a character.<br /><br />I thought the story of the book was also good and there was a twist...my only complaint is that there was so much foreshadowing in the story that I had the ending figured out before I was halfway through the book. I kept reading because I thought I must be wrong..",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0125",
+"source_text": "Hype Alright,  I gave in and ordered the trilogy for my Kindle. Thought it might spice up my life a little and possibly my marriage. After 36 years together I figured we could use it, after all we are not prudish and have a pretty good time. But from the first book all I did was laugh, sorry, but really if this book is a keeper and page turner not to mention turn on, there is something seriously wrong. Any one remember \"The Story Of O\", possibly the first book similar to this one. Really 50 shades ect.. reads like a Harlequin on steroids and not even a particulary good one. Way to much Inner G",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0126",
+"source_text": "Okay but leaves reader wanting I bought this book hoping for more insightful information from the author on her and her husbands &#34;hobby farm&#34; but all I really took out of was that the author flaunts her personal successes away from farming. Not all of us with interests in &#34;hobby farming&#34; have the financial fallback.<br /><br />I cannot recommend this book neither will I warn you away.  Thank you.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0127",
+"source_text": "Very SLOW and dry - don't read on a rainy day you will fall asleep. I looked forward to this release and purchased as soon as it was available.  For me the Book is S L O W !!!!  I have picked it up 4 times and put it down again, just moves way to slow.  You can't tell when the &#34;ghosts&#34; are talking and when the 2 main characters are talking, then once you figure it out, you have to back up and start again.  The 2 main Characters (Tillie & Greg) are wishy washy,  I am almost half way through it and its bland and slow,  I will probably finish it eventually but its putting me to sleep.  No",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0128",
+"source_text": "Good Ok...so after reading these stories out of order.  I hate to say but I liked Bear and Bear Alike better.  I read this last night and I did like it but because of the misunderstanding that lasted through the whole book pretty much kinda made it not fun.  Dont get me wrong I loved the book and parts of it but the part where Quinn kept forgetting to tell her she's his mate it dragged on way too long and ended up frustrating me with my reading of the book.  The love scenes were hot though.  Paige's character frustrated me too sometimes because I think how could she be THAT naive about mating",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0129",
+"source_text": "What’s up I enjoyed the story in this second book in the series but I have a hard time with the hero being able to overcome magical creatures when he has no magic himself. It’s a bit of a stretch in many of the scenarios. Unfortunately I did not enjoy the ending that wasn’t an ending. :(",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0130",
+"source_text": "One Star O stars, con game",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0131",
+"source_text": "Crazy This book was a crazy, book, I think you should read this book and make your own judgement of what you think.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0132",
+"source_text": "Nice brickmaking details, but the writing had some problems &#34;The Brickmaker's Bride&#34; is a historical novel set in 1868. The author described many details about how bricks were made, and she worked in historical details like how the recent Civil War affected the number of skilled laborers that were available for Ewan to hire.<br /><br />I found the main characters interesting, but I felt like the story started in one direction and then headed in another. It seemed like a story about Ewan not having the high-class social skills need to get contracts for the brickyard and feeling not wort",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0133",
+"source_text": "15 pages...this book was only 15 pages long! All things considered this was a good book, but seriously why stop?? What's the point of a 15 page book? Sorry, I'm a little annoyed. I somehow landed with this book as reading choice of the night, and only after settling in, eagerly looking forward to the promised storyline, and flipping to the next page on my Kindle did I realize it's a short story. No fault, but mine. It's pretty clear on the book cover.<br /><br />I feel like I'm missing out! This story had so much promise! The author did good for the number of pages, but this could have been so",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0134",
+"source_text": "Sweet A sweet  little love but as predictable as all those written in this style. Interesting learning about some Indian customs.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0135",
+"source_text": "Cute.. Cute story, not as great as expected. Misspelled words, misused words,  incorrect grammar etc. The story itself was annoying. A porn star that sleeps with 200 women (one night stands included) and not once was a condom mentioned. Just wrong. The justification is that he gets tested every month.<br />Because I did like the premise of the book I have it two stars.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0136",
+"source_text": "One says this person is the best and the book being reviewed is crap If you read every single review if every single dog training book you will be very confused. One says this person is the best and the book being reviewed is crap, another says an entirely different person is the best.<br /><br />I am a dog professional (trainer, sitter, walker, etc.). One of the main reasons there is such a disparity in views about how to train a dog is that there is such a disparity in dogs. The positive method works really well....if you have a nice easy dog, like a lab. But if you have a high energy dog th",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0137",
+"source_text": "Plagiarism. This book has it. If Victoria Aveyard ... Plagiarism. This book has it. If Victoria Aveyard is going to steal from Pierce Brown then I will be rating Red Queen compared to Red Rising instead of rating Red Queen the book itself. 1 blood soaked star<br /><br />I truly wish Pierce Brown would sue her.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0138",
+"source_text": "Excellent product a book for every adherent Jew",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0139",
+"source_text": "Not many pictures There were not very many different Temples or pictures of Temples in this book.  It was very disappointing.  I expected much more.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0140",
+"source_text": "Worth a look I actually enjoyed this story. Not a favorite, but worth the time it took to read it. There were things I didn't understand such as why a witch would refuse to use magic even if it was the one way to keep from being killed. You have to admit that is more than just a little strange: it's dumb!<br /><br />It was good getting to see what made Portia Fearwyn do the things she did. She wasn't some crazy old hag who didn't like anyone. No, she had a job to do, and she took it very seriously. That was good to know.<br /><br />This story is complete: you don't have to read anything else i",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0141",
+"source_text": "Jury's still out on this one for me. I didn't really care for this so I went to see what others had to say about it. Nothing. There are no reviews yet so I decided to check reviews for other books in the series. I had better luck there. Aha! These books are supposed to be about alliteration! Got it. Let's just say I realized only yesterday that I graduated high school 50 years ago. So when we studied all these things (alliteration, onomatopoeia, hyperbole, etc.) in the seventh grade I was a lot younger. My mind wasn't even thinking in that direction. So going back and re-reading this I do see",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0142",
+"source_text": "If you like his TV show you will like this book. If you like his TV show you will like this book. Repeats the same hypocritical propaganda that gets ratings on his tv show, but falls short on truth or reality.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0143",
+"source_text": "Not Good. I 't know how this can be titled a P. I. collection when the whole plot is about weird devil against angel fiction.  Not my idea of a detective story.  More good vs. evil with no detecting involved.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0144",
+"source_text": "Enjoyable Read This was an enjoyable read. There were times though that it was difficult to tell what era it was supposed to take place in because of modern sounding conversations. The characters were sweet though I thought Cole was a little strange because he had been in love with a girl for years, but he had never found out how she felt. The other thing I still haven't figured out is the tie-in for the hymn. Sure they &#34;sang&#34; it all at the very end, but other than that I didn't see any connection to the story. Maybe I missed it.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0145",
+"source_text": "Disappointing I was disappointed with this book. It has such a long, slow start. I almost gave up but Lisa Jewell is one of my favorite authors  and I decided to keep reading. It finally picked  up more than halfway through.  I did enjoy Owen,  Saffyre and Josh.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0146",
+"source_text": "Our History My family the Willis family was prominant  in early New England,Deacon John Willis arrived with 4 of his brothers in 1635",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0147",
+"source_text": "SAVE YOUR MONEY Atonement just was so long winded I couldn't help but put it down,  and go to another book. But I didn't want to give up entirely, because I'd seen the movie  so, I thought if I got the audible edition it would be better, and that too was terrible.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0148",
+"source_text": "Startling twists and turns I thought I had the story figured out, but there were new twists at every junction. By the end of the book I knew I had it figure out, but I didn't!",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0149",
+"source_text": "Not completed it seems? I received this ARC in exchange for an honest review.<br /><br />This is the 3rd story in the series.  This is a big improvement compared to the others.  I liked the story.  I liked the Prologue idea that she’s done because it explains things much better as we went along in the series.  Olivia is out of a bad relationship of her cheating ex-fiance, Derek.  He’s a douche plain and simple and honestly gives her the excuse that “men do these things”.  He’s very manipulative and he easily guilts her into sorta giving him another chance by calling her a bad mother for spendi",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0150",
+"source_text": "Just okay... Random notes taken as I read:<br />1) Page 40, they've just met and he already feels protective even though he distrusts her<br />2) Juvenile wording: 'willie' for penis and 'baby poop'<br />3) Frequent lapses in dialect coupled with occasional use of modern language and vernacular<br />4) Frequent and unnecessary repetitions of Lili's conflict over her 'mission' and the need to save her son versus her growing affection for Aiden<br />5) Noticeable errors in word usage (bear for bare, for example) coupled with some really awkward sentence structure.<br />6) Exploration of Lili's b",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0151",
+"source_text": "I tried I keep trying to get into this series but after four books, I just can't figure out who is who.  The characters aren't well differentiated except by type of animal.  And I don't get the difference between Immortal, Psy and just plain ops.  Don't get me started on the possible combinations of fae and other suspernatural beings.  There just isn't enough backstory to create a viable world.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0152",
+"source_text": "Over the top I enjoyed the first half of the book, though I found myself reading to the end to see how preposterous it would become.  And the author did not disappoint.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0153",
+"source_text": "Good start to the series I felt this was a good start to the series. This initial story gives Talon a good reason to keep up the fight against the occult and supported by the billionaire he now has the resources to really make a difference.<br />I will be getting book #2.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0154",
+"source_text": "Visits to the Third Heaven Experiencing the Heavenly Realm is very beautifully written and the author has some meaningful lessons to impart. But as to whether these visions were real or not I can't say. The heaven described in this book is a lot different than the other descriptions I've read. God's throne being inside and outside the city did not make sense to me. I've also never read anyone else's description of the Holy Spirit in bodily form. Even in this book no real physical descriptions are given in detail.<br /><br />Some of the things I did however learn from this book was that Jesus h",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0155",
+"source_text": "3 1/2 stars for another good mystery This was a super little mystery.  I really enjoyed it and rate it 3 1/2 stars.  I think this author is really on to something with this series and I can't wait to start the next one.  I think the character development is good and I loved that I did not guess \"whodunit.\"  So often you have it figured out by the third chapter and just need to get to the end to validate your guess.  I just love it when I don't figure it out until the last chapter!  Great job and I'm picking up the next book [[ASIN:0978573226 Deer Season]] to start today.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0156",
+"source_text": "Good The four book series is a serial not four separate books.  The stories require each other and can’t stand alone.  Could have been published as one long book instead of being billed as four books.  60% of the length was other stories thrown on top of this book.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0157",
+"source_text": "Four Stars some good some bad",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0158",
+"source_text": "Very interesting! I thought it was going to read like a novel but, instead, it reads like a documentary.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0159",
+"source_text": "Very well written, creative plot, but overly long and a bit too \"gothic\" I found the book enjoyable to read, but then it became interminable. (The print book is 564 pages!!) I found myself skimming some sections and trying to jump forward: it was just way too slow-going for me.  And the romance part is rather weak, to be honest, the author spent way too much time on the hero's PTSD, the heroine's disastrous father, the hero's scheming and evil family, various \"gothic\" themes developing in the story (no spoiler), etc.  Some of the secondary characters close to the couple of interest were intere",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0160",
+"source_text": "Eh Didn’t realize it was just a short story - or part of one at least",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0161",
+"source_text": "A little dry I really like the information in the book. It complements some other things I'm reading, regarding life during the Ice Age(s).It can be a bit dry, though.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0162",
+"source_text": "Lots of action and adventure. It takes a good while to figure out the reason for the drama and by then we're hip deep in trouble. The story felt incomplete when it ended, not because more was to come but because too much back story is missing.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0163",
+"source_text": "Laporte can write, but what she writes isn't enjoyable I was beginning to enjoy this story, although the heroine's self-hating emotional spiraling wasn't wonderful.  But then, just when I was expecting it to get better, the narrative just fell off a cliff for me.  And the emotional self-destructiveness got worse, and now the men in her life were doing it as well, just a little differently.<br /><br />And there wasn't much else going on to keep the story engaging.  So I bailed out about halfway through: I just don't see the fun in reading \"light romantic fiction\" telling me about the travails o",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0164",
+"source_text": "Nothing about renovation in this book. OK to good.  If you hope to have some chapters/paragraphs including historical home renovation you will be disappointed, as I was.  Otherwise, it was an interesting story.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0165",
+"source_text": "about a 4.5--really good, but not perfect. I would have preferred more character development. The characters apparently changed, but not because of choice or experiences.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0166",
+"source_text": "Fun fast read with credibility issues I never know how to rate these stories. On the one hand, they’re so ridiculously improbable, but on the other, they’re fun reads leaving the reader with the satisfaction of the bad guys always getting theirs and nothing too bad ever happening to the heroes. In this one, an 18 year old girl and a 14-15 year old boy manage to take out a whole gang of mobsters, with the kids getting only minor injuries. Yeah, right. And the good guy who looks like he’s going to get penalized for something he didn’t do, is saved at the last moment by a series of coincidences t",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0167",
+"source_text": "Four Stars some good some bad",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0168",
+"source_text": "Sweet and Sexy! 3.5 Stars. This is a zero angst, medium burn, sweet MM romance. The book is set in the South, although we're not sure where, just that it's 15 hours from Oklahoma. (Personally, I really need to know where a story is set, not knowing really breaks my concentration as I try to fully imagine the story in my head). Had this story been better idealized in my head and had we encountered even a little bit of conflict, I would have rated it a 4.<br /><br />In all, this was a quick, sweet and at times sexy read. I enjoyed the chemistry between the two MCs, and I especially loved the des",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0169",
+"source_text": "Read in high school Civics class, needed a reboot after 50 years of capitalism. Ol Karl had some ideas, taken from others, that would benefit the working class during the industrial revolution.  Are they still good ideas after so many years of capital investment in to the system.  Well, 3% of the population hold 90+ percent of the wealth.  Does this sound good to you.  Maybe capitalism has a boot on our throats and we are just striving to get along with the system.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0170",
+"source_text": "very good until the end Liked the characters (except Noah, who is too good to be true), liked the phobia inclusion and how they worked on it, liked Shelby who def deserved the Wisest Friend Ever award, liked all the dogs . . .<br />. . . and then I got about 2/3 through the book and it started to fall apart. It was clear from the beginning that Juliet was going to get caught out, and clearly she wanted to be on some level because she did nothing to prevent it. And once Noah discovered what she’d been doing, there was too little of the book left for a real resolution. Instead we got the 5 minut",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0171",
+"source_text": "Good Book (3.5)<br />I'll keep this short since there are a lot of reviews already for this book.<br />I went into this knowing nothing about Goran Lundblad's murder at all so it was all very new to me. The first part of the book is a lot of introduction to Goran including his parents and where he came from and all that good stuff you might find in the first part of a true crime TV show.  You get some good information in order to learn about all those people that are in the family that could possibly have something to do with his murder. After that you get into the investigation, the suspect l",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0172",
+"source_text": "Holmes and Watson together again While overall enjoyable, sometimes A Study in Charlotte seemed to try too hard to copy the original Holmes and Watson. It often dragged. Solving who did it was very interesting and I had actually eliminated that person as a suspect a while before it became clear that was likely who it was. I liked that the epilogue was written from Charlotte’s point of view. I recommend it to teens and up who like the Adventures of Sherlock Holmes.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0173",
+"source_text": "Solid, but not spectacular This is a well written and mostly interesting tale of a number of humans ripped from Earth and magically transported to a world where a corrupt religion controls most of the people.  They immediately end up fighting with the priests of said evil religion.<br /><br />Its not a bad tale.  The writing is good, and I found most of the dialogue to include considerable work at defining the characters.  For a book that clearly was inspired by the LitRPG genre, this book actually tries to have real characters and not use charts and tables to substitute for a real plot and ch",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0174",
+"source_text": "A sensational title covering up a lackluster autobiography I honestly don't know what to say about this book. It promises in its title a story about the dark side of Diddy, but what it delivers is an autobiography of Mark Curry. That's okay, I mean he seems to really love himself, but with such a sensational title you'd think he'd get to the point before you're 22% into the book. If you're like me, you stop reading after that 22%. This book is obviously self-published and has the serious grammar/formatting issues to prove it. This book reads like a shoddy media takeout article; there are parts",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0175",
+"source_text": "Don't waste even one penny!!!!  You will be angry at yourself for believing this guy can formulate an idea.  HE CANNOT So we are back to this Lee Hardin character, one of 48, now less than that, who is still trying to organize North Carolina by eliminating as many walking dead as he and several others are doing.  Unfortunately the government lurks in the background by being able to re-program the other's 47 GPS's and deciding who should live or die.  So, it eliminates most of the northeast because those states just &#34;weren't worth it.&#34;  Typically, most books are about good v evil and th",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0176",
+"source_text": "Well-written enemies-to-lovers story I really enjoy this author and loved the first book in this series. This one, however, was not one of my favorites, primarily because I just didn't like Nate for a big chunk of the book. He was total jerkwad to Luna and said some very offensive things. And Luna is so proud that she didn't ask her friends for help, so I had a hard time believing that she would even consider working for Nate, no matter how desperate she was. Thus, the circumstances of their relationship felt a bit forced for me. Aside from that, I liked Luna a lot, and I loved her interaction",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0177",
+"source_text": "Will justice be served? Bernice Williams hired Matt Cooper to look into her husband's death. He was one of seven people killed recently on a city bus. She is certain Ernie's partner, Duncan Davenport, is responsible, but the police will not take her seriously. Sgt. Hollister suggested she see Matt.<br /><br />Bernice gave Cooper a $100 retainer to begin his investigation. Right away he is followed, and then he finds another body. Next thing he knows Bernice has changed her mind, and he has been fired! But Matt doesn't stop working a case once he has started it whether he still has a paying cli",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0178",
+"source_text": "Very slow paced Started slow, too much filler throughout the book. I ended up forwarding as far as 55% in the book to read some action.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0179",
+"source_text": "\"When I look at that woman and who she’s become, I see the future I never knew I wanted\" Before I launch full-steam into the review, it’s worth noting that the story concept and follow-through could bump the rating to 4.5 stars, but the proofreading-type errors proved to be a bit more distracting than I liked. The book also started out a bit slower than I typically like, part of which I blamed on trying to get accustomed to the presentation of the material (i.e. first half of the chapter referred back three years and then the second half took place in the present; each chapter switched charact",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0180",
+"source_text": "Time warp in a box The Keepers: The Box and the Dragonfly<br />by Ted Sanders  (Author), Iacopo Bruno (Illustrator)<br />549 pages<br />HarperCollins (March 3, 2015)<br />Grades 4-6<br /><br />This is a story I picked up after passing on it several times.  The book cover and description sound interesting, but I just wasn't sure I wanted to begin another long possibly protracted series for young readers.  However, the school year is upon us and I decided to pick it up on the off chance that one of our students might request it.<br /><br />Horace is a middle schooler in Chicago with an inability",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0181",
+"source_text": ".... I'm excited to read this one. It sounds a lot like the movie The Farm, only with more characters. I hope I can read it without comparing it to one of my favorite movies...<br /><br />This book is hard for me to rate. When I started reading it, I expected blood and gore. Why? I dunno. I guess that's my fault. When the author says not for the faint of heart, I expect detailed violence. There is violence in this book., but it's not detailed. It's more like the story hints that the violence happened, or even for one scene we get a brief physical appearance description of one character that ha",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0182",
+"source_text": "Average fare for a LitRPG tale, the characters lacked character. This story had so much potential.  That I can say.  William D. Arand managed to bring out some interesting character ideas and a fun twist on the initially underpowered not-quite-a-hero character.<br /><br />Sadly, the idea was a great foundation, but the plot twisted into a pretzel and then fell apart as the third act got started in my opinion.<br /><br />I really don't want to post spoilers, but I have to warn that spoilers are going to follow this warning.  Its the only way to explain my issues with this tale.<br /><br />The p",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0183",
+"source_text": "Like the series but... I guess, I just don't like Parker. I love the series but think it is starting to drag a bit. I will finish the series just to see how it ends, because of the main characters.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0184",
+"source_text": "Not a great read The book was not particularly well written.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0185",
+"source_text": "Mixed feelings First of all, let me say that for the the most part I really enjoyed this book. However, there were some parts of the story that were very annoying.<br /><br />Lauren believes she almost ran over Bo because he was walking too close to the road so she stops to make certain he is okay. Everyone in town knows about Bo: he is different. Some people call him names or avoid him, but a lot of people really like him.<br /><br />When Bo goes missing, most people in town do what they can to help find him. Lauren is among those who want to help -much to the dismay of her husband, Jeff. He",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0186",
+"source_text": "Time Travel ruined a tale, part 2 of the book redeemed it. I felt this was almost two different books, both short.<br /><br />The first 75-80% of this was the hinted at time travel tale as Noelle ended up in the past where Technico was 2 years old and his mother was still alive.<br />And its a very predictable mess.<br />Time Travel is a very tricky plot line to use, and sadly in my opinion R J Ross was just absolutely horrible at making it work.  There are too many timelines all thrown together, which means you have characters constantly worrying about &#34;what if I change the past&#34;, but",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0187",
+"source_text": "The book is written as a writer thinking about the story they will tell about Carl - so you don't really get a character but the idea of a character that the 'author' is going to write about and about all the bad things that will/could happen to him This was a very strange short story.  I received this book from the author in exchange for an honest review, and I wasn't really sure what I was getting myself into. It seemed interesting and imaginative enough - is is described as 'dark humor', I can get behind some of that. Sadly this one was not for me.<br /><br />The book is written as a writer",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0188",
+"source_text": "C.R.O.W. The story follows a raw recruit, straight out of training, to his first combat deployment. And it certainly is one heck of a deployment. Over the course of the story, he grows from a terrified young man who just wants to go home, to a hardened veteran, who has seen too much in too short a time. The underlying tension is ultimately, \"why?\". Why do we go to war?<br /><br />The dialogue is a bit on the rough side, which is fitting with the rough nature of the characters, most of whom come from underprivileged situations. The prose, however, is also a bit rough, and as such, could really",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0189",
+"source_text": "Dragons, oh my I've never read a shifter romance before. I don't think it's my kind of thing; romance, in general, not my kind of formulaic writing. But sometimes, I'll pick one up and be pleasantly surprised. This is one of those times.<br /><br />The idea of shifter is weird to me, but I do like pets and animals, in general, so why not. It was an interesting story, good plot, interesting charcters, but could use some work with pacing and building the characters more. It would add to the length of the book, which is fine since it's kind of short anyway.<br /><br />This is a talented writer bu",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0190",
+"source_text": "Cute Story in The Golden Girls Style A small gossipy town, an unscrupulous con-man, an aging mansion and four determined grannies make a sure good tale. This book  has heart and undying friendship. The kind of friendship that makes all the worry worth all the hassle.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0191",
+"source_text": "The cats are the same as in another series with 2 siamese cats - a better series - and in the first few pages Only read one chapter.  The cats are the same as in another series with 2 siamese cats - a better series - and in the first few pages, the author has already jumped from past to present to past to present tense several times... yuk",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0192",
+"source_text": "Why does Sam need saving? In the second of the Zero, Ohio series a promiscuous man who has thin apartment walls by chance has his former best friend walk into the bar he now works at.  He is so different he's sure his friend won't recognize and that's fine by him. Why?  This was a very important person in his life. Tattoos, dyed hair, and piercings he has changed himself. Created a shield. But he has a lovable Rottweiler and a career dream. Is he going to allow his friend back into his life and heart?",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0193",
+"source_text": "Still waiting for a up date book. Not to be Missed!  I myself love this book. Hanna is a sweet girl when her Daddy is around but when alone with Mommy she is a whole Another child . I do  not want to give  a bunch of spoilers away so this is one you will need to read for yourself if you like this type of book. I love these type of books. I would love more on little Hanna . At end of this the author makes it sound as there will be another book to follow. WHEN... I liked this one but really I feel lied to.",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0194",
+"source_text": "Good but ... Unlike that this book gives practical tips on what to do throughout the year for container gardening. However, there are grammatical errors, missing links and missing punctuation that can make it a bit annoying to read. Additionally, there is quite a bit of repetition at the beginnings of chapters. It would have worked better to have formula written each month rather than repeat the same observations.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0195",
+"source_text": "Sweet If you like family sagas and very sweet happy endings, this is a book for you. Sort of a chick-book",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0196",
+"source_text": "Hero or Villain? I bought this to compare with the movie of the same name. The movie, which I enjoyed, appears to have been 'Hollywoodized' in comparison to the play. The liquidator is 'Garfinkle' in the play but 'Garfield' in the movie--draw your own conclusions. In the movie the wire rope factory is 'saved'; in the play it goes belly up and the attempt to retrain the workers is largely unsuccessful. Otherwise, the sharp dialogue of the play is retained in the movie and the philosophical conflict behind the action of the play is retained in both versions.",
+"repaired_label": "negative"
+},
+{
+"sample_id": "RA0197",
+"source_text": "Quick Fun Read I liked the idea of this book a lot, the whole not believing in fated mates concept. Clark is our hero and he’s very much the most non-shifter shifter I’ve ever read. He keeps his animal on lockdown, doesn’t really believe in the whole magic of shifters or the animal behavior. More like he believes they are two different things and the human can completely compartmentalize the animal outside of the human influence.<br />Misty on the other had is as integrated into shifter life as possible. She has a huge (and I mean huge) family, works for humans at a bakery who all have shifter",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0198",
+"source_text": "Ok Read more like a young adult book. It was ok. Characters needed a bit more depth and just not complex enough for me.",
+"repaired_label": "neutral"
+},
+{
+"sample_id": "RA0199",
+"source_text": "Nope Sure, a world without doors could provide the opportunity to meet a new friend or pet a puppy. But what happens when the new friend is a paedophile or the puppy has been bred to attack? And BTW, you wouldn't have to walk out of the house to meet the \"friend\" or puppy: they could just as easily walk INTO the house. In fact, so could anyone else if there were no doors to prevent it.<br /><br />While the poem flowed smoothly and actually rhymed, the story itself is an exercise in reckless living. Sure, you could exit quickly in a fire, but a toddler could also simply walk out the door and in",
+"repaired_label": "positive"
+},
+{
+"sample_id": "RA0200",
+"source_text": "Wish there was more about Phaelyn and Idris This is part of Ariel's Dark Shadows series.  Its a 2.5 so its shorter than others.  It was actually released the same day as Teague.  Not exactly sure why but I have to assume its because it was short and perhaps she didnt wanna disappoint her readers too much.  This is a story about Royal Guard vampire Idris who was kidnapped along with Anika in book 2 and Phaelyn who is a Dark Shadow warrior.  She's fought really hard to get where she is.  The only female warrior.  She's tough and independent and can kick some butt.  Both Idris and Phaelyn have ha",
+"repaired_label": "neutral"
+}
+],
+"n": 200
 }
