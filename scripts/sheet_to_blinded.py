@@ -13,11 +13,22 @@ Sheet export columns expected: updated_at, annotator_id, sample_id, consistent, 
 
 Annotators are assigned to R1..Rk in sorted order of annotator_id (stable, reproducible).
 
+The collection sheet may hold rows from more than one study (e.g. CV* construct-validity
+and RA* repair-log-audit items share one sheet). Use --id-prefix to process just one:
+the prefix must match the blinded template's sample_ids.
+
 Usage:
-    python3 scripts/sheet_to_blinded.py \
+    # construct-validity study (CV* items):
+    python3 scripts/sheet_to_blinded.py --id-prefix CV \
         --sheet   responses.csv \
         --blinded ../ill-posed-AffectTrace/SCRIPTS/experiments/construct_validity/annotation_blinded.csv \
         --out     ../ill-posed-AffectTrace/SCRIPTS/experiments/construct_validity/annotation_blinded.csv
+
+    # repair-log audit (RA* items, E10):
+    python3 scripts/sheet_to_blinded.py --id-prefix RA \
+        --sheet   responses.csv \
+        --blinded ../ill-posed-AffectTrace/SCRIPTS/experiments/results/repair_log_audit/audit_blinded_raters.csv \
+        --out     ../ill-posed-AffectTrace/SCRIPTS/experiments/results/repair_log_audit/audit_blinded_raters.csv
 """
 import argparse, csv, sys
 from collections import defaultdict
@@ -36,6 +47,9 @@ def main():
     ap.add_argument("--out", required=True, help="output filled CSV for the harness")
     ap.add_argument("--exclude", default="", help="comma-separated annotator_ids to drop, "
                     f"in addition to the built-in default {sorted(EXCLUDE_ANNOTATORS)}")
+    ap.add_argument("--id-prefix", default="", help="only process rows whose sample_id starts "
+                    "with this prefix (e.g. RA for the repair-log audit, CV for construct "
+                    "validity); empty = all rows. Must match the --blinded template's ids.")
     args = ap.parse_args()
     exclude = set(EXCLUDE_ANNOTATORS) | {x.strip() for x in args.exclude.split(",") if x.strip()}
 
@@ -45,10 +59,13 @@ def main():
         sys.exit(f"{args.sheet}: expected columns {need} (got {list(sheet[0].keys()) if sheet else 'empty'}).")
 
     # latest value per (annotator, sample) — the Sheet already upserts, but dedup defensively
-    val = {}; note = {}; skipped = defaultdict(int)
+    val = {}; note = {}; skipped = defaultdict(int); n_prefix_skip = 0
     for r in sheet:
         a, s = r["annotator_id"].strip(), r["sample_id"].strip()
         if not a or not s:
+            continue
+        if args.id_prefix and not s.startswith(args.id_prefix):
+            n_prefix_skip += 1
             continue
         if a in exclude:
             skipped[a] += 1
@@ -63,6 +80,9 @@ def main():
         if r.get("note", "").strip(): parts.append(r["note"].strip())
         if parts: note[(a, s)] = " ".join(parts)
     annotators = sorted({a for (a, _) in val})
+    if args.id_prefix:
+        print(f"Filtered to sample_id prefix '{args.id_prefix}': kept {len(val)} cells, "
+              f"skipped {n_prefix_skip} rows from other studies.")
     if skipped:
         print("Excluded (not independent raters): " +
               ", ".join(f"{a} ({n} rows)" for a, n in sorted(skipped.items())))
