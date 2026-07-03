@@ -4,7 +4,7 @@
    present client-side; nothing is uploaded anywhere. */
 (() => {
   "use strict";
-  const LS_KEY = "sia_state_v1";
+  const LS_KEY = "sia_state_v2_m1";  // bumped per batch: M1 random slice (v1 = CV/RA batches, preserved untouched)
   const ENDPOINT = (typeof window !== "undefined" && window.SIA_ENDPOINT) || "";
   let items = [], state = { annotator: "", answers: {}, idx: 0, synced: {} };
 
